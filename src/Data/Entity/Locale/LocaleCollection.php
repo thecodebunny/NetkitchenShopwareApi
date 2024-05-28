@@ -1,0 +1,25 @@
+<?php declare(strict_types=1);
+namespace Netktichen\ShopwareApi\Data\Entity\Locale;
+
+use Netktichen\ShopwareApi\Data\Entity\EntityCollection;
+
+/**
+ * Shopware Collection Mapping Class
+ *
+ * This class is generated dynamically following SW entities schema
+ *
+ * @method void add(LocaleEntity $entity)
+ * @method void set(LocaleEntity $entity)
+ * @method LocaleEntity[] getIterator()
+ * @method LocaleEntity[] getElements()
+ * @method LocaleEntity|null get(string $key)
+ * @method LocaleEntity|null first()
+ * @method LocaleEntity|null last()
+ */
+class LocaleCollection extends EntityCollection
+{
+    public function getExpectedClass() : string
+    {
+        return LocaleEntity::class;
+    }
+}
