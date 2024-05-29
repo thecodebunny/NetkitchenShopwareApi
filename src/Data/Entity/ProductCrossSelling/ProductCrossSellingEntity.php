@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\ProductCrossSelling;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\ProductCrossSelling;
 
-use Netktichen\ShopwareApi\Data\Entity\Product\ProductEntity;
-use Netktichen\ShopwareApi\Data\Entity\ProductStream\ProductStreamEntity;
-use Netktichen\ShopwareApi\Data\Entity\ProductCrossSellingAssignedProducts\ProductCrossSellingAssignedProductsCollection;
-use Netktichen\ShopwareApi\Data\Entity\ProductCrossSellingTranslation\ProductCrossSellingTranslationCollection;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Product\ProductEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\ProductStream\ProductStreamEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\ProductCrossSellingAssignedProducts\ProductCrossSellingAssignedProductsCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\ProductCrossSellingTranslation\ProductCrossSellingTranslationCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

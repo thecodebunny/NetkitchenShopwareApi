@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\AppTemplate;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\AppTemplate;
 
-use Netktichen\ShopwareApi\Data\Entity\App\AppEntity;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\App\AppEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

@@ -1,19 +1,19 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\User;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\User;
 
-use Netktichen\ShopwareApi\Data\Entity\Locale\LocaleEntity;
-use Netktichen\ShopwareApi\Data\Entity\Media\MediaEntity;
-use Netktichen\ShopwareApi\Data\Entity\Media\MediaCollection;
-use Netktichen\ShopwareApi\Data\Entity\UserAccessKey\UserAccessKeyCollection;
-use Netktichen\ShopwareApi\Data\Entity\UserConfig\UserConfigCollection;
-use Netktichen\ShopwareApi\Data\Entity\StateMachineHistory\StateMachineHistoryCollection;
-use Netktichen\ShopwareApi\Data\Entity\ImportExportLog\ImportExportLogCollection;
-use Netktichen\ShopwareApi\Data\Entity\AclRole\AclRoleCollection;
-use Netktichen\ShopwareApi\Data\Entity\UserRecovery\UserRecoveryEntity;
-use Netktichen\ShopwareApi\Data\Entity\Order\OrderCollection;
-use Netktichen\ShopwareApi\Data\Entity\Customer\CustomerCollection;
-use Netktichen\ShopwareApi\Data\Entity\Notification\NotificationCollection;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Locale\LocaleEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Media\MediaEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Media\MediaCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\UserAccessKey\UserAccessKeyCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\UserConfig\UserConfigCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\StateMachineHistory\StateMachineHistoryCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\ImportExportLog\ImportExportLogCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\AclRole\AclRoleCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\UserRecovery\UserRecoveryEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Order\OrderCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Customer\CustomerCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Notification\NotificationCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

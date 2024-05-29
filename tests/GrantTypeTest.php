@@ -5,13 +5,13 @@ declare(strict_types=1);
 namespace Vin\ShopwareSdkTest;
 
 use PHPUnit\Framework\TestCase;
-use Netktichen\ShopwareApi\Client\GrantType\GrantType;
-use Netktichen\ShopwareApi\Client\GrantType\PasswordGrantType;
-use Netktichen\ShopwareApi\Client\GrantType\ClientCredentialsGrantType;
-use Netktichen\ShopwareApi\Client\GrantType\RefreshTokenGrantType;
+use TheCodeBunny\ShopwareApi\Client\GrantType\GrantType;
+use TheCodeBunny\ShopwareApi\Client\GrantType\PasswordGrantType;
+use TheCodeBunny\ShopwareApi\Client\GrantType\ClientCredentialsGrantType;
+use TheCodeBunny\ShopwareApi\Client\GrantType\RefreshTokenGrantType;
 
 /**
- * @covers \Netktichen\ShopwareApi\Client\GrantType\GrantType
+ * @covers \TheCodeBunny\ShopwareApi\Client\GrantType\GrantType
  */
 class GrantTypeTest extends TestCase
 {

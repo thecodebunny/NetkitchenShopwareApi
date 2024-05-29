@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\CmsSlot;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\CmsSlot;
 
-use Netktichen\ShopwareApi\Data\Entity\CmsBlock\CmsBlockEntity;
-use Netktichen\ShopwareApi\Data\Entity\CmsSlotTranslation\CmsSlotTranslationCollection;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\CmsBlock\CmsBlockEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\CmsSlotTranslation\CmsSlotTranslationCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

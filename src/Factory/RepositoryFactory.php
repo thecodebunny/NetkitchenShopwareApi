@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
 
-namespace Netktichen\ShopwareApi\Factory;
+namespace TheCodeBunny\ShopwareApi\Factory;
 
-use Netktichen\ShopwareApi\Data\Entity\Custom\CustomDefinition;
-use Netktichen\ShopwareApi\Data\Entity\EntityDefinition;
-use Netktichen\ShopwareApi\Repository\EntityRepository;
-use Netktichen\ShopwareApi\Repository\RepositoryInterface;
+use TheCodeBunny\ShopwareApi\Data\Entity\Custom\CustomDefinition;
+use TheCodeBunny\ShopwareApi\Data\Entity\EntityDefinition;
+use TheCodeBunny\ShopwareApi\Repository\EntityRepository;
+use TheCodeBunny\ShopwareApi\Repository\RepositoryInterface;
 
 class RepositoryFactory
 {

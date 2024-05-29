@@ -1,7 +1,7 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\LogEntry;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\LogEntry;
 
-use Netktichen\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

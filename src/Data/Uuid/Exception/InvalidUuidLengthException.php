@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Netktichen\ShopwareApi\Data\Uuid\Exception;
+namespace TheCodeBunny\ShopwareApi\Data\Uuid\Exception;
 
 class InvalidUuidLengthException extends \Exception
 {

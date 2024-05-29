@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\ProductSorting;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\ProductSorting;
 
-use Netktichen\ShopwareApi\Data\Entity\ProductSortingTranslation\ProductSortingTranslationCollection;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\ProductSortingTranslation\ProductSortingTranslationCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

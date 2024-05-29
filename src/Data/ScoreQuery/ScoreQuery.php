@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Netktichen\ShopwareApi\Data\ScoreQuery;
+namespace TheCodeBunny\ShopwareApi\Data\ScoreQuery;
 
-use Netktichen\ShopwareApi\Data\Filter\Filter;
+use TheCodeBunny\ShopwareApi\Data\Filter\Filter;
 
 class ScoreQuery extends Filter
 {

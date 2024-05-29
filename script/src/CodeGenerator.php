@@ -8,17 +8,17 @@ use Laminas\Code\Generator\DocBlockGenerator;
 use Laminas\Code\Generator\PropertyGenerator;
 use Laminas\Code\Reflection\ClassReflection;
 use Laminas\Code\Reflection\PropertyReflection;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
-use Netktichen\ShopwareApi\Data\Entity\EntityCollection;
-use Netktichen\ShopwareApi\Data\Entity\EntityDefinition;
-use Netktichen\ShopwareApi\Data\Schema\Flag;
-use Netktichen\ShopwareApi\Data\Schema\FlagCollection;
-use Netktichen\ShopwareApi\Data\Schema\Property;
-use Netktichen\ShopwareApi\Data\Schema\PropertyCollection;
-use Netktichen\ShopwareApi\Data\Schema\Schema;
-use Netktichen\ShopwareApi\Data\Schema\SchemaCollection;
-use Netktichen\ShopwareApi\Data\Utils\StringFormatter;
-use Netktichen\ShopwareApi\Service\InfoService;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\EntityCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\EntityDefinition;
+use TheCodeBunny\ShopwareApi\Data\Schema\Flag;
+use TheCodeBunny\ShopwareApi\Data\Schema\FlagCollection;
+use TheCodeBunny\ShopwareApi\Data\Schema\Property;
+use TheCodeBunny\ShopwareApi\Data\Schema\PropertyCollection;
+use TheCodeBunny\ShopwareApi\Data\Schema\Schema;
+use TheCodeBunny\ShopwareApi\Data\Schema\SchemaCollection;
+use TheCodeBunny\ShopwareApi\Data\Utils\StringFormatter;
+use TheCodeBunny\ShopwareApi\Service\InfoService;
 
 class CodeGenerator
 {

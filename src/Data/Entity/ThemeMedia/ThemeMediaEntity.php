@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\ThemeMedia;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\ThemeMedia;
 
-use Netktichen\ShopwareApi\Data\Entity\Theme\ThemeEntity;
-use Netktichen\ShopwareApi\Data\Entity\Media\MediaEntity;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Theme\ThemeEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Media\MediaEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

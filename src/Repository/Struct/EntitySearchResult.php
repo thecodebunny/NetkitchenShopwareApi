@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
 
-namespace Netktichen\ShopwareApi\Repository\Struct;
+namespace TheCodeBunny\ShopwareApi\Repository\Struct;
 
-use Netktichen\ShopwareApi\Data\Context;
-use Netktichen\ShopwareApi\Data\Criteria;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
-use Netktichen\ShopwareApi\Data\Entity\EntityCollection;
+use TheCodeBunny\ShopwareApi\Data\Context;
+use TheCodeBunny\ShopwareApi\Data\Criteria;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\EntityCollection;
 
 class EntitySearchResult
 {

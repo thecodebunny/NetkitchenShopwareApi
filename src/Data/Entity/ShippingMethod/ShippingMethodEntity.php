@@ -1,16 +1,16 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\ShippingMethod;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\ShippingMethod;
 
-use Netktichen\ShopwareApi\Data\Entity\DeliveryTime\DeliveryTimeEntity;
-use Netktichen\ShopwareApi\Data\Entity\ShippingMethodTranslation\ShippingMethodTranslationCollection;
-use Netktichen\ShopwareApi\Data\Entity\Rule\RuleEntity;
-use Netktichen\ShopwareApi\Data\Entity\ShippingMethodPrice\ShippingMethodPriceCollection;
-use Netktichen\ShopwareApi\Data\Entity\Media\MediaEntity;
-use Netktichen\ShopwareApi\Data\Entity\Tag\TagCollection;
-use Netktichen\ShopwareApi\Data\Entity\OrderDelivery\OrderDeliveryCollection;
-use Netktichen\ShopwareApi\Data\Entity\SalesChannel\SalesChannelCollection;
-use Netktichen\ShopwareApi\Data\Entity\Tax\TaxEntity;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\DeliveryTime\DeliveryTimeEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\ShippingMethodTranslation\ShippingMethodTranslationCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Rule\RuleEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\ShippingMethodPrice\ShippingMethodPriceCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Media\MediaEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Tag\TagCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\OrderDelivery\OrderDeliveryCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\SalesChannel\SalesChannelCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Tax\TaxEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

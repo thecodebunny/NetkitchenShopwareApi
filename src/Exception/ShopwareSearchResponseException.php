@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Netktichen\ShopwareApi\Exception;
+namespace TheCodeBunny\ShopwareApi\Exception;
 
-use Netktichen\ShopwareApi\Data\Criteria;
+use TheCodeBunny\ShopwareApi\Data\Criteria;
 
 class ShopwareSearchResponseException extends ShopwareResponseException
 {

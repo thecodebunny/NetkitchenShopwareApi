@@ -1,15 +1,15 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\Promotion;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\Promotion;
 
-use Netktichen\ShopwareApi\Data\Entity\PromotionSetgroup\PromotionSetgroupCollection;
-use Netktichen\ShopwareApi\Data\Entity\PromotionSalesChannel\PromotionSalesChannelCollection;
-use Netktichen\ShopwareApi\Data\Entity\PromotionDiscount\PromotionDiscountCollection;
-use Netktichen\ShopwareApi\Data\Entity\PromotionIndividualCode\PromotionIndividualCodeCollection;
-use Netktichen\ShopwareApi\Data\Entity\Customer\CustomerCollection;
-use Netktichen\ShopwareApi\Data\Entity\Rule\RuleCollection;
-use Netktichen\ShopwareApi\Data\Entity\OrderLineItem\OrderLineItemCollection;
-use Netktichen\ShopwareApi\Data\Entity\PromotionTranslation\PromotionTranslationCollection;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\PromotionSetgroup\PromotionSetgroupCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\PromotionSalesChannel\PromotionSalesChannelCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\PromotionDiscount\PromotionDiscountCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\PromotionIndividualCode\PromotionIndividualCodeCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Customer\CustomerCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Rule\RuleCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\OrderLineItem\OrderLineItemCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\PromotionTranslation\PromotionTranslationCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

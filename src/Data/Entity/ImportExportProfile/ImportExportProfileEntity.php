@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\ImportExportProfile;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\ImportExportProfile;
 
-use Netktichen\ShopwareApi\Data\Entity\ImportExportLog\ImportExportLogCollection;
-use Netktichen\ShopwareApi\Data\Entity\ImportExportProfileTranslation\ImportExportProfileTranslationCollection;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\ImportExportLog\ImportExportLogCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\ImportExportProfileTranslation\ImportExportProfileTranslationCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

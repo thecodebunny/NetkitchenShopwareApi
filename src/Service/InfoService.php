@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Netktichen\ShopwareApi\Service;
+namespace TheCodeBunny\ShopwareApi\Service;
 
-use Netktichen\ShopwareApi\Data\Schema\Schema;
-use Netktichen\ShopwareApi\Data\Schema\SchemaCollection;
+use TheCodeBunny\ShopwareApi\Data\Schema\Schema;
+use TheCodeBunny\ShopwareApi\Data\Schema\SchemaCollection;
 
 class InfoService extends ApiService
 {

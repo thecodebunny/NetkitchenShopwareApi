@@ -1,16 +1,16 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\Tag;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\Tag;
 
-use Netktichen\ShopwareApi\Data\Entity\Product\ProductCollection;
-use Netktichen\ShopwareApi\Data\Entity\Media\MediaCollection;
-use Netktichen\ShopwareApi\Data\Entity\Category\CategoryCollection;
-use Netktichen\ShopwareApi\Data\Entity\Customer\CustomerCollection;
-use Netktichen\ShopwareApi\Data\Entity\Order\OrderCollection;
-use Netktichen\ShopwareApi\Data\Entity\ShippingMethod\ShippingMethodCollection;
-use Netktichen\ShopwareApi\Data\Entity\NewsletterRecipient\NewsletterRecipientCollection;
-use Netktichen\ShopwareApi\Data\Entity\LandingPage\LandingPageCollection;
-use Netktichen\ShopwareApi\Data\Entity\Rule\RuleCollection;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Product\ProductCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Media\MediaCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Category\CategoryCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Customer\CustomerCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Order\OrderCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\ShippingMethod\ShippingMethodCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\NewsletterRecipient\NewsletterRecipientCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\LandingPage\LandingPageCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Rule\RuleCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

@@ -1,20 +1,20 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\Order;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\Order;
 
-use Netktichen\ShopwareApi\Data\Entity\StateMachineState\StateMachineStateEntity;
-use Netktichen\ShopwareApi\Data\Entity\OrderCustomer\OrderCustomerEntity;
-use Netktichen\ShopwareApi\Data\Entity\Currency\CurrencyEntity;
-use Netktichen\ShopwareApi\Data\Entity\Language\LanguageEntity;
-use Netktichen\ShopwareApi\Data\Entity\SalesChannel\SalesChannelEntity;
-use Netktichen\ShopwareApi\Data\Entity\OrderAddress\OrderAddressCollection;
-use Netktichen\ShopwareApi\Data\Entity\OrderAddress\OrderAddressEntity;
-use Netktichen\ShopwareApi\Data\Entity\OrderDelivery\OrderDeliveryCollection;
-use Netktichen\ShopwareApi\Data\Entity\OrderLineItem\OrderLineItemCollection;
-use Netktichen\ShopwareApi\Data\Entity\OrderTransaction\OrderTransactionCollection;
-use Netktichen\ShopwareApi\Data\Entity\Document\DocumentCollection;
-use Netktichen\ShopwareApi\Data\Entity\Tag\TagCollection;
-use Netktichen\ShopwareApi\Data\Entity\User\UserEntity;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\StateMachineState\StateMachineStateEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\OrderCustomer\OrderCustomerEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Currency\CurrencyEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Language\LanguageEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\SalesChannel\SalesChannelEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\OrderAddress\OrderAddressCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\OrderAddress\OrderAddressEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\OrderDelivery\OrderDeliveryCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\OrderLineItem\OrderLineItemCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\OrderTransaction\OrderTransactionCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Document\DocumentCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Tag\TagCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\User\UserEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

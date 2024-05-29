@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\MediaDefaultFolder;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\MediaDefaultFolder;
 
-use Netktichen\ShopwareApi\Data\Entity\MediaFolder\MediaFolderEntity;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\MediaFolder\MediaFolderEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

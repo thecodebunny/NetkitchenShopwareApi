@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\AppCmsBlock;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\AppCmsBlock;
 
-use Netktichen\ShopwareApi\Data\Entity\AppCmsBlockTranslation\AppCmsBlockTranslationCollection;
-use Netktichen\ShopwareApi\Data\Entity\App\AppEntity;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\AppCmsBlockTranslation\AppCmsBlockTranslationCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\App\AppEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

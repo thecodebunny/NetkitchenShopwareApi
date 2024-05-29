@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Netktichen\ShopwareApi\Service\Struct;
+namespace TheCodeBunny\ShopwareApi\Service\Struct;
 
-use Netktichen\ShopwareApi\Data\Collection;
-use Netktichen\ShopwareApi\Data\ParseAware;
+use TheCodeBunny\ShopwareApi\Data\Collection;
+use TheCodeBunny\ShopwareApi\Data\ParseAware;
 
 class SyncPayload extends Collection implements ParseAware
 {

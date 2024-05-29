@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\ShippingMethodPrice;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\ShippingMethodPrice;
 
-use Netktichen\ShopwareApi\Data\Entity\ShippingMethod\ShippingMethodEntity;
-use Netktichen\ShopwareApi\Data\Entity\Rule\RuleEntity;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\ShippingMethod\ShippingMethodEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Rule\RuleEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
 
-namespace Netktichen\ShopwareApi\Service;
+namespace TheCodeBunny\ShopwareApi\Service;
 
 use GuzzleHttp\Exception\BadResponseException;
-use Netktichen\ShopwareApi\Exception\ShopwareResponseException;
-use Netktichen\ShopwareApi\Service\Struct\KeyValuePair;
-use Netktichen\ShopwareApi\Service\Struct\KeyValuePairs;
+use TheCodeBunny\ShopwareApi\Exception\ShopwareResponseException;
+use TheCodeBunny\ShopwareApi\Service\Struct\KeyValuePair;
+use TheCodeBunny\ShopwareApi\Service\Struct\KeyValuePairs;
 
 class UserConfigService extends ApiService
 {

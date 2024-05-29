@@ -1,15 +1,15 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\PaymentMethod;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\PaymentMethod;
 
-use Netktichen\ShopwareApi\Data\Entity\PaymentMethodTranslation\PaymentMethodTranslationCollection;
-use Netktichen\ShopwareApi\Data\Entity\Media\MediaEntity;
-use Netktichen\ShopwareApi\Data\Entity\Rule\RuleEntity;
-use Netktichen\ShopwareApi\Data\Entity\Plugin\PluginEntity;
-use Netktichen\ShopwareApi\Data\Entity\Customer\CustomerCollection;
-use Netktichen\ShopwareApi\Data\Entity\OrderTransaction\OrderTransactionCollection;
-use Netktichen\ShopwareApi\Data\Entity\SalesChannel\SalesChannelCollection;
-use Netktichen\ShopwareApi\Data\Entity\AppPaymentMethod\AppPaymentMethodEntity;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\PaymentMethodTranslation\PaymentMethodTranslationCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Media\MediaEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Rule\RuleEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Plugin\PluginEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Customer\CustomerCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\OrderTransaction\OrderTransactionCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\SalesChannel\SalesChannelCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\AppPaymentMethod\AppPaymentMethodEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

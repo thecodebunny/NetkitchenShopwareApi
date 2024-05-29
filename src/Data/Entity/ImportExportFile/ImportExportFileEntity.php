@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\ImportExportFile;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\ImportExportFile;
 
-use Netktichen\ShopwareApi\Data\Entity\ImportExportLog\ImportExportLogEntity;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\ImportExportLog\ImportExportLogEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

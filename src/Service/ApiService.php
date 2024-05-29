@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Netktichen\ShopwareApi\Service;
+namespace TheCodeBunny\ShopwareApi\Service;
 
-use Netktichen\ShopwareApi\Client\CreateClientTrait;
-use Netktichen\ShopwareApi\Data\Context;
+use TheCodeBunny\ShopwareApi\Client\CreateClientTrait;
+use TheCodeBunny\ShopwareApi\Data\Context;
 
 class ApiService
 {

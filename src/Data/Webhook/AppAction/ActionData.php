@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Netktichen\ShopwareApi\Data\Webhook\AppAction;
+namespace TheCodeBunny\ShopwareApi\Data\Webhook\AppAction;
 
-use Netktichen\ShopwareApi\Data\Struct;
+use TheCodeBunny\ShopwareApi\Data\Struct;
 
 class ActionData extends Struct
 {

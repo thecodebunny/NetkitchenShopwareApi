@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\SnippetSet;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\SnippetSet;
 
-use Netktichen\ShopwareApi\Data\Entity\Snippet\SnippetCollection;
-use Netktichen\ShopwareApi\Data\Entity\SalesChannelDomain\SalesChannelDomainCollection;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Snippet\SnippetCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\SalesChannelDomain\SalesChannelDomainCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

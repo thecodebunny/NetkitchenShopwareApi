@@ -1,7 +1,7 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\AppPaymentMethod;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\AppPaymentMethod;
 
-use Netktichen\ShopwareApi\Data\Entity\EntityCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\EntityCollection;
 
 /**
  * Shopware Collection Mapping Class

@@ -1,12 +1,12 @@
 <?php declare(strict_types=1);
 
-namespace Netktichen\ShopwareApi\Service;
+namespace TheCodeBunny\ShopwareApi\Service;
 
 /**
  * This class is used for calling admin _action apis that are not defined by the SDK yet
  *
  * Class AdminActionService
- * @package Netktichen\ShopwareApi\Service
+ * @package TheCodeBunny\ShopwareApi\Service
  */
 class AdminActionService extends ApiService
 {

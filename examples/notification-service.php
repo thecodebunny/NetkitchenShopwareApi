@@ -2,9 +2,9 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
-use Netktichen\ShopwareApi\Data\Context;
-use Netktichen\ShopwareApi\Service\NotificationService;
-use Netktichen\ShopwareApi\Service\Struct\Notification;
+use TheCodeBunny\ShopwareApi\Data\Context;
+use TheCodeBunny\ShopwareApi\Service\NotificationService;
+use TheCodeBunny\ShopwareApi\Service\Struct\Notification;
 
 class NotificationServiceExample {
     public function execute(): void

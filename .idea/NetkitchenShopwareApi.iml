@@ -2,7 +2,8 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" packagePrefix="Sas\ShopwareLaravelSdk\" />
+      <sourceFolder url="file://$MODULE_DIR$/script/src" isTestSource="false" packagePrefix="Vin\Script\" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" packagePrefix="Netkichen\ShopwareApi\" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" packagePrefix="Netkichen\ShopwareApiTest\" />
     </content>
     <orderEntry type="inheritedJdk" />

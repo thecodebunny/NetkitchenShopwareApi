@@ -1,12 +1,12 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\PropertyGroupOption;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\PropertyGroupOption;
 
-use Netktichen\ShopwareApi\Data\Entity\Media\MediaEntity;
-use Netktichen\ShopwareApi\Data\Entity\PropertyGroup\PropertyGroupEntity;
-use Netktichen\ShopwareApi\Data\Entity\PropertyGroupOptionTranslation\PropertyGroupOptionTranslationCollection;
-use Netktichen\ShopwareApi\Data\Entity\ProductConfiguratorSetting\ProductConfiguratorSettingCollection;
-use Netktichen\ShopwareApi\Data\Entity\Product\ProductCollection;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Media\MediaEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\PropertyGroup\PropertyGroupEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\PropertyGroupOptionTranslation\PropertyGroupOptionTranslationCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\ProductConfiguratorSetting\ProductConfiguratorSettingCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Product\ProductCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

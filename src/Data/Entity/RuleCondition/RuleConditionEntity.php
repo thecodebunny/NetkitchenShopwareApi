@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\RuleCondition;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\RuleCondition;
 
-use Netktichen\ShopwareApi\Data\Entity\Rule\RuleEntity;
-use Netktichen\ShopwareApi\Data\Entity\AppScriptCondition\AppScriptConditionEntity;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Rule\RuleEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\AppScriptCondition\AppScriptConditionEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

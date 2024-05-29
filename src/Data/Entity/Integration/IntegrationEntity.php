@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\Integration;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\Integration;
 
-use Netktichen\ShopwareApi\Data\Entity\App\AppEntity;
-use Netktichen\ShopwareApi\Data\Entity\AclRole\AclRoleCollection;
-use Netktichen\ShopwareApi\Data\Entity\Notification\NotificationCollection;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\App\AppEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\AclRole\AclRoleCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Notification\NotificationCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

@@ -1,12 +1,12 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\OrderDelivery;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\OrderDelivery;
 
-use Netktichen\ShopwareApi\Data\Entity\StateMachineState\StateMachineStateEntity;
-use Netktichen\ShopwareApi\Data\Entity\Order\OrderEntity;
-use Netktichen\ShopwareApi\Data\Entity\OrderAddress\OrderAddressEntity;
-use Netktichen\ShopwareApi\Data\Entity\ShippingMethod\ShippingMethodEntity;
-use Netktichen\ShopwareApi\Data\Entity\OrderDeliveryPosition\OrderDeliveryPositionCollection;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\StateMachineState\StateMachineStateEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Order\OrderEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\OrderAddress\OrderAddressEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\ShippingMethod\ShippingMethodEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\OrderDeliveryPosition\OrderDeliveryPositionCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

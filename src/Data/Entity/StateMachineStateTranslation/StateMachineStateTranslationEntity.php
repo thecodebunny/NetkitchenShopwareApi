@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\StateMachineStateTranslation;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\StateMachineStateTranslation;
 
-use Netktichen\ShopwareApi\Data\Entity\StateMachineState\StateMachineStateEntity;
-use Netktichen\ShopwareApi\Data\Entity\Language\LanguageEntity;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\StateMachineState\StateMachineStateEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Language\LanguageEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

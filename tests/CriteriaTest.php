@@ -5,29 +5,29 @@ declare(strict_types=1);
 namespace Vin\ShopwareSdkTest;
 
 use PHPUnit\Framework\TestCase;
-use Netktichen\ShopwareApi\Data\Aggregation\AverageAggregation;
-use Netktichen\ShopwareApi\Data\Aggregation\CountAggregation;
-use Netktichen\ShopwareApi\Data\Aggregation\FilterAggregation;
-use Netktichen\ShopwareApi\Data\Aggregation\HistogramAggregation;
-use Netktichen\ShopwareApi\Data\Aggregation\MaxAggregation;
-use Netktichen\ShopwareApi\Data\Aggregation\MinAggregation;
-use Netktichen\ShopwareApi\Data\Aggregation\StatsAggregation;
-use Netktichen\ShopwareApi\Data\Aggregation\SumAggregation;
-use Netktichen\ShopwareApi\Data\Aggregation\TermsAggregation;
-use Netktichen\ShopwareApi\Data\Criteria;
-use Netktichen\ShopwareApi\Data\FieldSorting;
-use Netktichen\ShopwareApi\Data\Filter\ContainsFilter;
-use Netktichen\ShopwareApi\Data\Filter\EqualsAnyFilter;
-use Netktichen\ShopwareApi\Data\Filter\EqualsFilter;
-use Netktichen\ShopwareApi\Data\Filter\MultiFilter;
-use Netktichen\ShopwareApi\Data\Filter\NotFilter;
-use Netktichen\ShopwareApi\Data\Filter\PrefixFilter;
-use Netktichen\ShopwareApi\Data\Filter\RangeFilter;
-use Netktichen\ShopwareApi\Data\Filter\SuffixFilter;
-use Netktichen\ShopwareApi\Data\ScoreQuery\ScoreQuery;
+use TheCodeBunny\ShopwareApi\Data\Aggregation\AverageAggregation;
+use TheCodeBunny\ShopwareApi\Data\Aggregation\CountAggregation;
+use TheCodeBunny\ShopwareApi\Data\Aggregation\FilterAggregation;
+use TheCodeBunny\ShopwareApi\Data\Aggregation\HistogramAggregation;
+use TheCodeBunny\ShopwareApi\Data\Aggregation\MaxAggregation;
+use TheCodeBunny\ShopwareApi\Data\Aggregation\MinAggregation;
+use TheCodeBunny\ShopwareApi\Data\Aggregation\StatsAggregation;
+use TheCodeBunny\ShopwareApi\Data\Aggregation\SumAggregation;
+use TheCodeBunny\ShopwareApi\Data\Aggregation\TermsAggregation;
+use TheCodeBunny\ShopwareApi\Data\Criteria;
+use TheCodeBunny\ShopwareApi\Data\FieldSorting;
+use TheCodeBunny\ShopwareApi\Data\Filter\ContainsFilter;
+use TheCodeBunny\ShopwareApi\Data\Filter\EqualsAnyFilter;
+use TheCodeBunny\ShopwareApi\Data\Filter\EqualsFilter;
+use TheCodeBunny\ShopwareApi\Data\Filter\MultiFilter;
+use TheCodeBunny\ShopwareApi\Data\Filter\NotFilter;
+use TheCodeBunny\ShopwareApi\Data\Filter\PrefixFilter;
+use TheCodeBunny\ShopwareApi\Data\Filter\RangeFilter;
+use TheCodeBunny\ShopwareApi\Data\Filter\SuffixFilter;
+use TheCodeBunny\ShopwareApi\Data\ScoreQuery\ScoreQuery;
 
 /**
- * @covers \Netktichen\ShopwareApi\Data\Criteria
+ * @covers \TheCodeBunny\ShopwareApi\Data\Criteria
  */
 class CriteriaTest extends TestCase
 {

@@ -1,15 +1,15 @@
 <?php declare(strict_types=1);
 
-namespace Netktichen\ShopwareApi\Service;
+namespace TheCodeBunny\ShopwareApi\Service;
 
 use GuzzleHttp\Exception\BadResponseException;
-use Netktichen\ShopwareApi\Exception\ShopwareResponseException;
+use TheCodeBunny\ShopwareApi\Exception\ShopwareResponseException;
 
 /**
  * Gateway for the API end point "media"
  *
  * Class AdminActionService
- * @package Netktichen\ShopwareApi\Service
+ * @package TheCodeBunny\ShopwareApi\Service
  */
 class MediaService extends ApiService
 {

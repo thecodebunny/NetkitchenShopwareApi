@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\StateMachine;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\StateMachine;
 
-use Netktichen\ShopwareApi\Data\Entity\StateMachineState\StateMachineStateCollection;
-use Netktichen\ShopwareApi\Data\Entity\StateMachineTransition\StateMachineTransitionCollection;
-use Netktichen\ShopwareApi\Data\Entity\StateMachineTranslation\StateMachineTranslationCollection;
-use Netktichen\ShopwareApi\Data\Entity\StateMachineHistory\StateMachineHistoryCollection;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\StateMachineState\StateMachineStateCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\StateMachineTransition\StateMachineTransitionCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\StateMachineTranslation\StateMachineTranslationCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\StateMachineHistory\StateMachineHistoryCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

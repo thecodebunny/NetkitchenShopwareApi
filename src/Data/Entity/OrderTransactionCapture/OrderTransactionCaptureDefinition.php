@@ -1,12 +1,12 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\OrderTransactionCapture;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\OrderTransactionCapture;
 
-use Netktichen\ShopwareApi\Data\Entity\EntityDefinition;
-use Netktichen\ShopwareApi\Data\Schema\PropertyCollection;
-use Netktichen\ShopwareApi\Data\Schema\FlagCollection;
-use Netktichen\ShopwareApi\Data\Schema\Property;
-use Netktichen\ShopwareApi\Data\Schema\Flag;
-use Netktichen\ShopwareApi\Data\Schema\Schema;
+use TheCodeBunny\ShopwareApi\Data\Entity\EntityDefinition;
+use TheCodeBunny\ShopwareApi\Data\Schema\PropertyCollection;
+use TheCodeBunny\ShopwareApi\Data\Schema\FlagCollection;
+use TheCodeBunny\ShopwareApi\Data\Schema\Property;
+use TheCodeBunny\ShopwareApi\Data\Schema\Flag;
+use TheCodeBunny\ShopwareApi\Data\Schema\Schema;
 
 /**
  * Shopware Definition Mapping Class

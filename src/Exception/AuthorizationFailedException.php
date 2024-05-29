@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Netktichen\ShopwareApi\Exception;
+namespace TheCodeBunny\ShopwareApi\Exception;
 
 class AuthorizationFailedException extends ShopwareResponseException
 {

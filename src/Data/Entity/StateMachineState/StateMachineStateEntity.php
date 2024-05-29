@@ -1,16 +1,16 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\StateMachineState;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\StateMachineState;
 
-use Netktichen\ShopwareApi\Data\Entity\StateMachine\StateMachineEntity;
-use Netktichen\ShopwareApi\Data\Entity\StateMachineTransition\StateMachineTransitionCollection;
-use Netktichen\ShopwareApi\Data\Entity\StateMachineStateTranslation\StateMachineStateTranslationCollection;
-use Netktichen\ShopwareApi\Data\Entity\OrderTransaction\OrderTransactionCollection;
-use Netktichen\ShopwareApi\Data\Entity\OrderDelivery\OrderDeliveryCollection;
-use Netktichen\ShopwareApi\Data\Entity\Order\OrderCollection;
-use Netktichen\ShopwareApi\Data\Entity\OrderTransactionCapture\OrderTransactionCaptureCollection;
-use Netktichen\ShopwareApi\Data\Entity\OrderTransactionCaptureRefund\OrderTransactionCaptureRefundCollection;
-use Netktichen\ShopwareApi\Data\Entity\StateMachineHistory\StateMachineHistoryCollection;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\StateMachine\StateMachineEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\StateMachineTransition\StateMachineTransitionCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\StateMachineStateTranslation\StateMachineStateTranslationCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\OrderTransaction\OrderTransactionCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\OrderDelivery\OrderDeliveryCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Order\OrderCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\OrderTransactionCapture\OrderTransactionCaptureCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\OrderTransactionCaptureRefund\OrderTransactionCaptureRefundCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\StateMachineHistory\StateMachineHistoryCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

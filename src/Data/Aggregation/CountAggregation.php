@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Netktichen\ShopwareApi\Data\Aggregation;
+namespace TheCodeBunny\ShopwareApi\Data\Aggregation;
 
 class CountAggregation extends Aggregation
 {

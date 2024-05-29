@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\ProductStreamFilter;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\ProductStreamFilter;
 
-use Netktichen\ShopwareApi\Data\Entity\ProductStream\ProductStreamEntity;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\ProductStream\ProductStreamEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

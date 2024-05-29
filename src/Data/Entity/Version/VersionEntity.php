@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\Version;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\Version;
 
-use Netktichen\ShopwareApi\Data\Entity\VersionCommit\VersionCommitCollection;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\VersionCommit\VersionCommitCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

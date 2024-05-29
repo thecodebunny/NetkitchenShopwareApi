@@ -2,11 +2,11 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
-use Netktichen\ShopwareApi\Data\Context;
-use Netktichen\ShopwareApi\Data\Entity\Media\MediaDefinition;
-use Netktichen\ShopwareApi\Factory\RepositoryFactory;
-use Netktichen\ShopwareApi\Data\Criteria;
-use Netktichen\ShopwareApi\Service\MediaService;
+use TheCodeBunny\ShopwareApi\Data\Context;
+use TheCodeBunny\ShopwareApi\Data\Entity\Media\MediaDefinition;
+use TheCodeBunny\ShopwareApi\Factory\RepositoryFactory;
+use TheCodeBunny\ShopwareApi\Data\Criteria;
+use TheCodeBunny\ShopwareApi\Service\MediaService;
 
 class MediaServiceExample {
     public function execute(): void

@@ -2,9 +2,9 @@
 
 namespace Vin\Script;
 
-use Netktichen\ShopwareApi\Data\Entity\EntityDefinition;
-use Netktichen\ShopwareApi\Data\Schema\PropertyCollection;
-use Netktichen\ShopwareApi\Data\Schema\Schema;
+use TheCodeBunny\ShopwareApi\Data\Entity\EntityDefinition;
+use TheCodeBunny\ShopwareApi\Data\Schema\PropertyCollection;
+use TheCodeBunny\ShopwareApi\Data\Schema\Schema;
 
 class DummyDefinitionClass implements EntityDefinition
 {

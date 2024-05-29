@@ -1,7 +1,7 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\Promotion;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\Promotion;
 
-use Netktichen\ShopwareApi\Data\Entity\EntityCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\EntityCollection;
 
 /**
  * Shopware Collection Mapping Class

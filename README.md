@@ -27,7 +27,7 @@ You can use 1.x to connect to a sw 6.5 but for up-to-date schema and new 6.5 fea
 ## Installation
 Install with Composer
 ```shell
-composer require netkitchen-sw/shopware-sdk
+composer require thecodebunny/shopware-sdk
 ```
 
 # The SDK main features:
@@ -160,7 +160,7 @@ public function confirm(Request $request, ShopRepository $shopRepository): Respo
 When receive a POST request from an action button, you can return one of these ActionResponse (PSR-7 Response) classes ported from Shopware's core
 
 ```php
-namespace Netktichen\ShopwareApi\Data\Response;
+namespace TheCodeBunny\ShopwareApi\Data\Response;
 /**
 * @see Shopware\Core\Framework\App\ActionButton
  */
@@ -215,9 +215,9 @@ This SDK is mainly dedicated to Shopware 6.4 and onwards, earlier SW application
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/netkitchen-sw/shopware-sdk.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/thecodebunny/shopware-sdk.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[link-packagist]: https://packagist.org/packages/netkitchen-sw/shopware-sdk
-[link-downloads]: https://packagist.org/packages/netkitchen-sw/shopware-sdk
+[link-packagist]: https://packagist.org/packages/thecodebunny/shopware-sdk
+[link-downloads]: https://packagist.org/packages/thecodebunny/shopware-sdk
 [link-author]: https://github.com/vienthuong
 [link-contributors]: ../../contributors

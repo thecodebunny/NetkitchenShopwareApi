@@ -1,12 +1,12 @@
 <?php declare(strict_types=1);
 
-namespace Netktichen\ShopwareApi\Service;
+namespace TheCodeBunny\ShopwareApi\Service;
 
-use Netktichen\ShopwareApi\Data\Entity\User\UserEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\User\UserEntity;
 
 /**
  * Class UserService
- * @package Netktichen\ShopwareApi\Service
+ * @package TheCodeBunny\ShopwareApi\Service
  */
 class UserService extends ApiService
 {

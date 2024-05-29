@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Netktichen\ShopwareApi\Factory;
+namespace TheCodeBunny\ShopwareApi\Factory;
 
-use Netktichen\ShopwareApi\Hydrate\EntityHydrator;
-use Netktichen\ShopwareApi\Hydrate\HydratorInterface;
+use TheCodeBunny\ShopwareApi\Hydrate\EntityHydrator;
+use TheCodeBunny\ShopwareApi\Hydrate\HydratorInterface;
 
 class HydratorFactory
 {

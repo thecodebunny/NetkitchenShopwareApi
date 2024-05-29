@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Netktichen\ShopwareApi\Data;
+namespace TheCodeBunny\ShopwareApi\Data;
 
 class Context
 {

@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace Netktichen\ShopwareApi\Service;
+namespace TheCodeBunny\ShopwareApi\Service;
 
 use GuzzleHttp\Exception\BadResponseException;
-use Netktichen\ShopwareApi\Exception\ShopwareResponseException;
-use Netktichen\ShopwareApi\Service\Struct\SyncPayload;
+use TheCodeBunny\ShopwareApi\Exception\ShopwareResponseException;
+use TheCodeBunny\ShopwareApi\Service\Struct\SyncPayload;
 
 class SyncService extends ApiService
 {

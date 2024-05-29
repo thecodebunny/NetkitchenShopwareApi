@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\TaxRuleType;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\TaxRuleType;
 
-use Netktichen\ShopwareApi\Data\Entity\TaxRule\TaxRuleCollection;
-use Netktichen\ShopwareApi\Data\Entity\TaxRuleTypeTranslation\TaxRuleTypeTranslationCollection;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\TaxRule\TaxRuleCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\TaxRuleTypeTranslation\TaxRuleTypeTranslationCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

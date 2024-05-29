@@ -2,9 +2,9 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
-use Netktichen\ShopwareApi\Data\Context;
-use Netktichen\ShopwareApi\Service\SystemConfigService;
-use Netktichen\ShopwareApi\Service\Struct\KeyValuePair;
+use TheCodeBunny\ShopwareApi\Data\Context;
+use TheCodeBunny\ShopwareApi\Service\SystemConfigService;
+use TheCodeBunny\ShopwareApi\Service\Struct\KeyValuePair;
 
 class SystemConfigServiceExample {
     public function execute(): void

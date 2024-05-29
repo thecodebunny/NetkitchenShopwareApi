@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Netktichen\ShopwareApi\Data\Webhook;
+namespace TheCodeBunny\ShopwareApi\Data\Webhook;
 
-use Netktichen\ShopwareApi\Data\Struct;
-use Netktichen\ShopwareApi\Data\Uuid\Uuid;
+use TheCodeBunny\ShopwareApi\Data\Struct;
+use TheCodeBunny\ShopwareApi\Data\Uuid\Uuid;
 
 class Shop extends Struct
 {

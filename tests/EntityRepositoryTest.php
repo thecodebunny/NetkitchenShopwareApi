@@ -10,27 +10,27 @@ use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
 use PHPUnit\Framework\TestCase;
-use Netktichen\ShopwareApi\Data\AccessToken;
-use Netktichen\ShopwareApi\Data\Context;
-use Netktichen\ShopwareApi\Data\Criteria;
-use Netktichen\ShopwareApi\Data\Entity\Custom\CustomDefinition;
-use Netktichen\ShopwareApi\Data\Entity\Custom\CustomEntity;
-use Netktichen\ShopwareApi\Data\Entity\Product\ProductCollection;
-use Netktichen\ShopwareApi\Data\Entity\Product\ProductDefinition;
-use Netktichen\ShopwareApi\Data\Entity\Product\ProductEntity;
-use Netktichen\ShopwareApi\Data\Schema\PropertyCollection;
-use Netktichen\ShopwareApi\Data\Schema\Schema;
-use Netktichen\ShopwareApi\Data\Uuid\Uuid;
-use Netktichen\ShopwareApi\Exception\ShopwareResponseException;
-use Netktichen\ShopwareApi\Factory\RepositoryFactory;
-use Netktichen\ShopwareApi\Hydrate\EntityHydrator;
-use Netktichen\ShopwareApi\Repository\EntityRepository;
-use Netktichen\ShopwareApi\Repository\Struct\EntitySearchResult;
-use Netktichen\ShopwareApi\Repository\Struct\IdSearchResult;
-use Netktichen\ShopwareApi\Client\Client;
+use TheCodeBunny\ShopwareApi\Data\AccessToken;
+use TheCodeBunny\ShopwareApi\Data\Context;
+use TheCodeBunny\ShopwareApi\Data\Criteria;
+use TheCodeBunny\ShopwareApi\Data\Entity\Custom\CustomDefinition;
+use TheCodeBunny\ShopwareApi\Data\Entity\Custom\CustomEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Product\ProductCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Product\ProductDefinition;
+use TheCodeBunny\ShopwareApi\Data\Entity\Product\ProductEntity;
+use TheCodeBunny\ShopwareApi\Data\Schema\PropertyCollection;
+use TheCodeBunny\ShopwareApi\Data\Schema\Schema;
+use TheCodeBunny\ShopwareApi\Data\Uuid\Uuid;
+use TheCodeBunny\ShopwareApi\Exception\ShopwareResponseException;
+use TheCodeBunny\ShopwareApi\Factory\RepositoryFactory;
+use TheCodeBunny\ShopwareApi\Hydrate\EntityHydrator;
+use TheCodeBunny\ShopwareApi\Repository\EntityRepository;
+use TheCodeBunny\ShopwareApi\Repository\Struct\EntitySearchResult;
+use TheCodeBunny\ShopwareApi\Repository\Struct\IdSearchResult;
+use TheCodeBunny\ShopwareApi\Client\Client;
 
 /**
- * @covers \Netktichen\ShopwareApi\Repository\EntityRepository
+ * @covers \TheCodeBunny\ShopwareApi\Repository\EntityRepository
  */
 class EntityRepositoryTest extends TestCase
 {

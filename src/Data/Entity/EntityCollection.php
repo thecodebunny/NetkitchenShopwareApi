@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Netktichen\ShopwareApi\Data\Entity;
+namespace TheCodeBunny\ShopwareApi\Data\Entity;
 
-use Netktichen\ShopwareApi\Data\Collection;
+use TheCodeBunny\ShopwareApi\Data\Collection;
 
 /**
  * @method void                add(Entity $entity)

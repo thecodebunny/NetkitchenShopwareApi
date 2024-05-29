@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
 
-namespace Netktichen\ShopwareApi\Data\Schema;
+namespace TheCodeBunny\ShopwareApi\Data\Schema;
 
-use Netktichen\ShopwareApi\Data\Collection;
+use TheCodeBunny\ShopwareApi\Data\Collection;
 
 /**
  * @method Schema|null get($key)

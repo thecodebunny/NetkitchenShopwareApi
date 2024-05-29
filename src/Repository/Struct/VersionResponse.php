@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Netktichen\ShopwareApi\Repository\Struct;
+namespace TheCodeBunny\ShopwareApi\Repository\Struct;
 
-use Netktichen\ShopwareApi\Data\Struct;
+use TheCodeBunny\ShopwareApi\Data\Struct;
 
 class VersionResponse extends Struct
 {

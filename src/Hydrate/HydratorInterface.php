@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Netktichen\ShopwareApi\Hydrate;
+namespace TheCodeBunny\ShopwareApi\Hydrate;
 
-use Netktichen\ShopwareApi\Data\Context;
-use Netktichen\ShopwareApi\Data\Entity\EntityCollection;
-use Netktichen\ShopwareApi\Data\Schema\Schema;
+use TheCodeBunny\ShopwareApi\Data\Context;
+use TheCodeBunny\ShopwareApi\Data\Entity\EntityCollection;
+use TheCodeBunny\ShopwareApi\Data\Schema\Schema;
 
 interface HydratorInterface
 {

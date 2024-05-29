@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\SalesChannelType;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\SalesChannelType;
 
-use Netktichen\ShopwareApi\Data\Entity\SalesChannelTypeTranslation\SalesChannelTypeTranslationCollection;
-use Netktichen\ShopwareApi\Data\Entity\SalesChannel\SalesChannelCollection;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\SalesChannelTypeTranslation\SalesChannelTypeTranslationCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\SalesChannel\SalesChannelCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

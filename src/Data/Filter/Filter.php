@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Netktichen\ShopwareApi\Data\Filter;
+namespace TheCodeBunny\ShopwareApi\Data\Filter;
 
-use Netktichen\ShopwareApi\Data\ParseAware;
+use TheCodeBunny\ShopwareApi\Data\ParseAware;
 
 abstract class Filter implements ParseAware
 {

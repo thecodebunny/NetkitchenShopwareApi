@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Netktichen\ShopwareApi\Service\Struct;
+namespace TheCodeBunny\ShopwareApi\Service\Struct;
 
-use Netktichen\ShopwareApi\Data\Collection;
+use TheCodeBunny\ShopwareApi\Data\Collection;
 
 class NotificationCollection extends Collection
 {

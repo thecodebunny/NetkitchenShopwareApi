@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\CustomFieldSetRelation;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\CustomFieldSetRelation;
 
-use Netktichen\ShopwareApi\Data\Entity\CustomFieldSet\CustomFieldSetEntity;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\CustomFieldSet\CustomFieldSetEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

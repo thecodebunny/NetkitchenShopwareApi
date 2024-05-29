@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\NumberRangeState;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\NumberRangeState;
 
-use Netktichen\ShopwareApi\Data\Entity\NumberRange\NumberRangeEntity;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\NumberRange\NumberRangeEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

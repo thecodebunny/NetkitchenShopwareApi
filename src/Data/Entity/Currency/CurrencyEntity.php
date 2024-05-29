@@ -1,14 +1,14 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\Currency;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\Currency;
 
-use Netktichen\ShopwareApi\Data\Entity\CurrencyTranslation\CurrencyTranslationCollection;
-use Netktichen\ShopwareApi\Data\Entity\Order\OrderCollection;
-use Netktichen\ShopwareApi\Data\Entity\SalesChannel\SalesChannelCollection;
-use Netktichen\ShopwareApi\Data\Entity\SalesChannelDomain\SalesChannelDomainCollection;
-use Netktichen\ShopwareApi\Data\Entity\PromotionDiscountPrices\PromotionDiscountPricesCollection;
-use Netktichen\ShopwareApi\Data\Entity\ProductExport\ProductExportCollection;
-use Netktichen\ShopwareApi\Data\Entity\CurrencyCountryRounding\CurrencyCountryRoundingCollection;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\CurrencyTranslation\CurrencyTranslationCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Order\OrderCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\SalesChannel\SalesChannelCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\SalesChannelDomain\SalesChannelDomainCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\PromotionDiscountPrices\PromotionDiscountPricesCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\ProductExport\ProductExportCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\CurrencyCountryRounding\CurrencyCountryRoundingCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Netktichen\ShopwareApi\Client;
+namespace TheCodeBunny\ShopwareApi\Client;
 
 trait CreateClientTrait
 {

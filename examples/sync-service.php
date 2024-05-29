@@ -2,14 +2,14 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
-use Netktichen\ShopwareApi\Data\Context;
-use \Netktichen\ShopwareApi\Service\SyncService;
-use Netktichen\ShopwareApi\Service\Struct\SyncPayload;
-use Netktichen\ShopwareApi\Data\Entity\Product\ProductDefinition;
-use Netktichen\ShopwareApi\Data\Entity\Category\CategoryDefinition;
-use Netktichen\ShopwareApi\Service\Struct\SyncOperator;
-use Netktichen\ShopwareApi\Factory\RepositoryFactory;
-use Netktichen\ShopwareApi\Data\Criteria;
+use TheCodeBunny\ShopwareApi\Data\Context;
+use \TheCodeBunny\ShopwareApi\Service\SyncService;
+use TheCodeBunny\ShopwareApi\Service\Struct\SyncPayload;
+use TheCodeBunny\ShopwareApi\Data\Entity\Product\ProductDefinition;
+use TheCodeBunny\ShopwareApi\Data\Entity\Category\CategoryDefinition;
+use TheCodeBunny\ShopwareApi\Service\Struct\SyncOperator;
+use TheCodeBunny\ShopwareApi\Factory\RepositoryFactory;
+use TheCodeBunny\ShopwareApi\Data\Criteria;
 
 class SyncServiceExample {
     public function execute(): void

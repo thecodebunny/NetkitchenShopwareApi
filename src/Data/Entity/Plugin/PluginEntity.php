@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\Plugin;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\Plugin;
 
-use Netktichen\ShopwareApi\Data\Entity\PluginTranslation\PluginTranslationCollection;
-use Netktichen\ShopwareApi\Data\Entity\PaymentMethod\PaymentMethodCollection;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\PluginTranslation\PluginTranslationCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\PaymentMethod\PaymentMethodCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

@@ -1,28 +1,28 @@
 <?php declare(strict_types=1);
 
-namespace Netktichen\ShopwareApi\Repository;
+namespace TheCodeBunny\ShopwareApi\Repository;
 
 use GuzzleHttp\Exception\BadResponseException;
-use Netktichen\ShopwareApi\Client\CreateClientTrait;
-use Netktichen\ShopwareApi\Data\Context;
-use Netktichen\ShopwareApi\Data\Criteria;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
-use Netktichen\ShopwareApi\Data\Entity\EntityDefinition;
-use Netktichen\ShopwareApi\Data\Uuid\Uuid;
-use Netktichen\ShopwareApi\Exception\ShopwareResponseException;
-use Netktichen\ShopwareApi\Exception\ShopwareSearchResponseException;
-use Netktichen\ShopwareApi\Factory\HydratorFactory;
-use Netktichen\ShopwareApi\Hydrate\HydratorInterface;
-use Netktichen\ShopwareApi\Repository\Struct\AggregationResultCollection;
-use Netktichen\ShopwareApi\Repository\Struct\CloneBehaviour;
-use Netktichen\ShopwareApi\Repository\Struct\EntitySearchResult;
-use Netktichen\ShopwareApi\Repository\Struct\IdSearchResult;
-use Netktichen\ShopwareApi\Repository\Struct\SearchResultMeta;
-use Netktichen\ShopwareApi\Repository\Struct\VersionResponse;
-use Netktichen\ShopwareApi\Service\ApiResponse;
-use Netktichen\ShopwareApi\Service\Struct\SyncOperator;
-use Netktichen\ShopwareApi\Service\Struct\SyncPayload;
-use Netktichen\ShopwareApi\Service\SyncService;
+use TheCodeBunny\ShopwareApi\Client\CreateClientTrait;
+use TheCodeBunny\ShopwareApi\Data\Context;
+use TheCodeBunny\ShopwareApi\Data\Criteria;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\EntityDefinition;
+use TheCodeBunny\ShopwareApi\Data\Uuid\Uuid;
+use TheCodeBunny\ShopwareApi\Exception\ShopwareResponseException;
+use TheCodeBunny\ShopwareApi\Exception\ShopwareSearchResponseException;
+use TheCodeBunny\ShopwareApi\Factory\HydratorFactory;
+use TheCodeBunny\ShopwareApi\Hydrate\HydratorInterface;
+use TheCodeBunny\ShopwareApi\Repository\Struct\AggregationResultCollection;
+use TheCodeBunny\ShopwareApi\Repository\Struct\CloneBehaviour;
+use TheCodeBunny\ShopwareApi\Repository\Struct\EntitySearchResult;
+use TheCodeBunny\ShopwareApi\Repository\Struct\IdSearchResult;
+use TheCodeBunny\ShopwareApi\Repository\Struct\SearchResultMeta;
+use TheCodeBunny\ShopwareApi\Repository\Struct\VersionResponse;
+use TheCodeBunny\ShopwareApi\Service\ApiResponse;
+use TheCodeBunny\ShopwareApi\Service\Struct\SyncOperator;
+use TheCodeBunny\ShopwareApi\Service\Struct\SyncPayload;
+use TheCodeBunny\ShopwareApi\Service\SyncService;
 
 class EntityRepository implements RepositoryInterface
 {

@@ -1,5 +1,5 @@
 {
-    "name": "netkitchen-sw/shopware-sdk-script",
+    "name": "netkitchen/shopware-sdk-script",
     "description": "A Script to generate DTOs dynamically",
     "type": "library",
     "license": "MIT",
@@ -13,13 +13,13 @@
     "authors": [
         {
             "name": "netkitchen",
-            "email": "levienthuong@gmail.com"
+            "email": "hv@netkitchen.de"
         }
     ],
     "minimum-stability": "stable",
     "require": {
         "php": "^7.4 || ^8.0",
-        "netkitchen-sw/shopware-sdk": "*",
+        "thecodebunny/shopware-sdk": "*",
         "laminas/laminas-code": "^4.3"
     },
     "autoload": {

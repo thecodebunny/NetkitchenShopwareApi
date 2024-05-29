@@ -2,7 +2,7 @@
 
 namespace Vin\Script;
 
-use Netktichen\ShopwareApi\Data\Entity\EntityCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\EntityCollection;
 
 class DummyCollectionClass extends EntityCollection
 {

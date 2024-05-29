@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\TaxRule;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\TaxRule;
 
-use Netktichen\ShopwareApi\Data\Entity\TaxRuleType\TaxRuleTypeEntity;
-use Netktichen\ShopwareApi\Data\Entity\Country\CountryEntity;
-use Netktichen\ShopwareApi\Data\Entity\Tax\TaxEntity;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\TaxRuleType\TaxRuleTypeEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Country\CountryEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Tax\TaxEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

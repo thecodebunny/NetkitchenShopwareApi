@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Netktichen\ShopwareApi\Data\Webhook\Event;
+namespace TheCodeBunny\ShopwareApi\Data\Webhook\Event;
 
-use Netktichen\ShopwareApi\Data\Struct;
+use TheCodeBunny\ShopwareApi\Data\Struct;
 
 class EventData extends Struct
 {

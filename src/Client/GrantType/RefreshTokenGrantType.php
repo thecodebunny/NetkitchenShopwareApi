@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Netktichen\ShopwareApi\Client\GrantType;
+namespace TheCodeBunny\ShopwareApi\Client\GrantType;
 
 class RefreshTokenGrantType extends GrantType
 {

@@ -1,18 +1,18 @@
 <?php declare(strict_types=1);
 
-namespace Netktichen\ShopwareApi\Service;
+namespace TheCodeBunny\ShopwareApi\Service;
 
 use GuzzleHttp\Exception\BadResponseException;
-use Netktichen\ShopwareApi\Data\Context;
-use Netktichen\ShopwareApi\Data\Criteria;
-use Netktichen\ShopwareApi\Exception\ShopwareResponseException;
-use Netktichen\ShopwareApi\Factory\HydratorFactory;
-use Netktichen\ShopwareApi\Hydrate\HydratorInterface;
-use Netktichen\ShopwareApi\Repository\Struct\AggregationResultCollection;
-use Netktichen\ShopwareApi\Repository\Struct\EntitySearchResult;
-use Netktichen\ShopwareApi\Repository\Struct\SearchResultMeta;
-use Netktichen\ShopwareApi\Service\Struct\KeyValuePair;
-use Netktichen\ShopwareApi\Service\Struct\KeyValuePairs;
+use TheCodeBunny\ShopwareApi\Data\Context;
+use TheCodeBunny\ShopwareApi\Data\Criteria;
+use TheCodeBunny\ShopwareApi\Exception\ShopwareResponseException;
+use TheCodeBunny\ShopwareApi\Factory\HydratorFactory;
+use TheCodeBunny\ShopwareApi\Hydrate\HydratorInterface;
+use TheCodeBunny\ShopwareApi\Repository\Struct\AggregationResultCollection;
+use TheCodeBunny\ShopwareApi\Repository\Struct\EntitySearchResult;
+use TheCodeBunny\ShopwareApi\Repository\Struct\SearchResultMeta;
+use TheCodeBunny\ShopwareApi\Service\Struct\KeyValuePair;
+use TheCodeBunny\ShopwareApi\Service\Struct\KeyValuePairs;
 
 class AdminSearchService extends ApiService
 {

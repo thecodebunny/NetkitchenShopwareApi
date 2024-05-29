@@ -2,12 +2,12 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
-use \Netktichen\ShopwareApi\Client\GrantType\PasswordGrantType;
-use \Netktichen\ShopwareApi\Client\GrantType\ClientCredentialsGrantType;
-use \Netktichen\ShopwareApi\Client\GrantType\RefreshTokenGrantType;
-use \Netktichen\ShopwareApi\Client\AdminAuthenticator;
-use \Netktichen\ShopwareApi\Data\AccessToken;
-use \Netktichen\ShopwareApi\Client\GrantType\GrantType;
+use \TheCodeBunny\ShopwareApi\Client\GrantType\PasswordGrantType;
+use \TheCodeBunny\ShopwareApi\Client\GrantType\ClientCredentialsGrantType;
+use \TheCodeBunny\ShopwareApi\Client\GrantType\RefreshTokenGrantType;
+use \TheCodeBunny\ShopwareApi\Client\AdminAuthenticator;
+use \TheCodeBunny\ShopwareApi\Data\AccessToken;
+use \TheCodeBunny\ShopwareApi\Client\GrantType\GrantType;
 
 class AuthenticationExample {
     public function exampleUsingPasswordGrantType(): AccessToken

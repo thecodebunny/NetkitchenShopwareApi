@@ -5,22 +5,22 @@ declare(strict_types=1);
 namespace Vin\ShopwareSdkTest;
 
 use PHPUnit\Framework\TestCase;
-use Netktichen\ShopwareApi\Data\Entity\Custom\CustomCollection;
-use Netktichen\ShopwareApi\Data\Entity\Custom\CustomDefinition;
-use Netktichen\ShopwareApi\Data\Entity\Custom\CustomEntity;
-use Netktichen\ShopwareApi\Data\Entity\Customer\CustomerCollection;
-use Netktichen\ShopwareApi\Data\Entity\Customer\CustomerDefinition;
-use Netktichen\ShopwareApi\Data\Entity\Customer\CustomerEntity;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
-use Netktichen\ShopwareApi\Data\Entity\EntityCollection;
-use Netktichen\ShopwareApi\Data\Entity\Product\ProductCollection;
-use Netktichen\ShopwareApi\Data\Entity\Product\ProductDefinition;
-use Netktichen\ShopwareApi\Data\Entity\Product\ProductEntity;
-use Netktichen\ShopwareApi\Factory\RepositoryFactory;
-use Netktichen\ShopwareApi\Repository\EntityRepository;
+use TheCodeBunny\ShopwareApi\Data\Entity\Custom\CustomCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Custom\CustomDefinition;
+use TheCodeBunny\ShopwareApi\Data\Entity\Custom\CustomEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Customer\CustomerCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Customer\CustomerDefinition;
+use TheCodeBunny\ShopwareApi\Data\Entity\Customer\CustomerEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\EntityCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Product\ProductCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Product\ProductDefinition;
+use TheCodeBunny\ShopwareApi\Data\Entity\Product\ProductEntity;
+use TheCodeBunny\ShopwareApi\Factory\RepositoryFactory;
+use TheCodeBunny\ShopwareApi\Repository\EntityRepository;
 
 /**
- * @covers \Netktichen\ShopwareApi\Factory\RepositoryFactory
+ * @covers \TheCodeBunny\ShopwareApi\Factory\RepositoryFactory
  */
 class RepositoryFactoryTest extends TestCase
 {

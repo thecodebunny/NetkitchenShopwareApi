@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Netktichen\ShopwareApi\Data\Response;
+namespace TheCodeBunny\ShopwareApi\Data\Response;
 
 use GuzzleHttp\Psr7\Response;
 use Psr\Http\Message\ResponseInterface;

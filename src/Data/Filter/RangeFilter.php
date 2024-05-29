@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Netktichen\ShopwareApi\Data\Filter;
+namespace TheCodeBunny\ShopwareApi\Data\Filter;
 
 /**
  * @example

@@ -667,7 +667,7 @@
             "time": "2022-02-25T11:15:52+00:00"
         },
         {
-            "name": "netkitchen-sw/shopware-sdk",
+            "name": "thecodebunny/shopware-sdk",
             "version": "1.5.0",
             "dist": {
                 "type": "path",

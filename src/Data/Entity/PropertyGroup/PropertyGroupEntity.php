@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\PropertyGroup;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\PropertyGroup;
 
-use Netktichen\ShopwareApi\Data\Entity\PropertyGroupOption\PropertyGroupOptionCollection;
-use Netktichen\ShopwareApi\Data\Entity\PropertyGroupTranslation\PropertyGroupTranslationCollection;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\PropertyGroupOption\PropertyGroupOptionCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\PropertyGroupTranslation\PropertyGroupTranslationCollection;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

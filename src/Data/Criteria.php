@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace Netktichen\ShopwareApi\Data;
+namespace TheCodeBunny\ShopwareApi\Data;
 
-use Netktichen\ShopwareApi\Data\Aggregation\Aggregation;
-use Netktichen\ShopwareApi\Data\Aggregation\FilterAggregation;
-use Netktichen\ShopwareApi\Data\Aggregation\TermsAggregation;
-use Netktichen\ShopwareApi\Data\Filter\ContainsFilter;
-use Netktichen\ShopwareApi\Data\Filter\EqualsAnyFilter;
-use Netktichen\ShopwareApi\Data\Filter\EqualsFilter;
-use Netktichen\ShopwareApi\Data\Filter\Filter;
-use Netktichen\ShopwareApi\Data\Filter\MultiFilter;
-use Netktichen\ShopwareApi\Data\Filter\NotFilter;
-use Netktichen\ShopwareApi\Data\Filter\PrefixFilter;
-use Netktichen\ShopwareApi\Data\Filter\RangeFilter;
-use Netktichen\ShopwareApi\Data\Filter\SuffixFilter;
-use Netktichen\ShopwareApi\Data\ScoreQuery\ScoreQuery;
+use TheCodeBunny\ShopwareApi\Data\Aggregation\Aggregation;
+use TheCodeBunny\ShopwareApi\Data\Aggregation\FilterAggregation;
+use TheCodeBunny\ShopwareApi\Data\Aggregation\TermsAggregation;
+use TheCodeBunny\ShopwareApi\Data\Filter\ContainsFilter;
+use TheCodeBunny\ShopwareApi\Data\Filter\EqualsAnyFilter;
+use TheCodeBunny\ShopwareApi\Data\Filter\EqualsFilter;
+use TheCodeBunny\ShopwareApi\Data\Filter\Filter;
+use TheCodeBunny\ShopwareApi\Data\Filter\MultiFilter;
+use TheCodeBunny\ShopwareApi\Data\Filter\NotFilter;
+use TheCodeBunny\ShopwareApi\Data\Filter\PrefixFilter;
+use TheCodeBunny\ShopwareApi\Data\Filter\RangeFilter;
+use TheCodeBunny\ShopwareApi\Data\Filter\SuffixFilter;
+use TheCodeBunny\ShopwareApi\Data\ScoreQuery\ScoreQuery;
 
 class Criteria implements ParseAware
 {

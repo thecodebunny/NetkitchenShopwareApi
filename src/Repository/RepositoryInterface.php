@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Netktichen\ShopwareApi\Repository;
+namespace TheCodeBunny\ShopwareApi\Repository;
 
-use Netktichen\ShopwareApi\Data\Context;
-use Netktichen\ShopwareApi\Data\Criteria;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
-use Netktichen\ShopwareApi\Data\Entity\EntityDefinition;
-use Netktichen\ShopwareApi\Repository\Struct\CloneBehaviour;
-use Netktichen\ShopwareApi\Repository\Struct\EntitySearchResult;
-use Netktichen\ShopwareApi\Repository\Struct\IdSearchResult;
-use Netktichen\ShopwareApi\Repository\Struct\VersionResponse;
-use Netktichen\ShopwareApi\Service\ApiResponse;
+use TheCodeBunny\ShopwareApi\Data\Context;
+use TheCodeBunny\ShopwareApi\Data\Criteria;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\EntityDefinition;
+use TheCodeBunny\ShopwareApi\Repository\Struct\CloneBehaviour;
+use TheCodeBunny\ShopwareApi\Repository\Struct\EntitySearchResult;
+use TheCodeBunny\ShopwareApi\Repository\Struct\IdSearchResult;
+use TheCodeBunny\ShopwareApi\Repository\Struct\VersionResponse;
+use TheCodeBunny\ShopwareApi\Service\ApiResponse;
 
 interface RepositoryInterface
 {

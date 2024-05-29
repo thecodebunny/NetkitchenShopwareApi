@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Netktichen\ShopwareApi\Data\Aggregation;
+namespace TheCodeBunny\ShopwareApi\Data\Aggregation;
 
-use Netktichen\ShopwareApi\Data\FieldSorting;
-use Netktichen\ShopwareApi\Data\Filter\Filter;
+use TheCodeBunny\ShopwareApi\Data\FieldSorting;
+use TheCodeBunny\ShopwareApi\Data\Filter\Filter;
 
 class TermsAggregation extends Aggregation
 {

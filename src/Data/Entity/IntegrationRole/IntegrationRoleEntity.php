@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
-namespace Netktichen\ShopwareApi\Data\Entity\IntegrationRole;
+namespace TheCodeBunny\ShopwareApi\Data\Entity\IntegrationRole;
 
-use Netktichen\ShopwareApi\Data\Entity\Integration\IntegrationEntity;
-use Netktichen\ShopwareApi\Data\Entity\AclRole\AclRoleEntity;
-use Netktichen\ShopwareApi\Data\Entity\Entity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Integration\IntegrationEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\AclRole\AclRoleEntity;
+use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

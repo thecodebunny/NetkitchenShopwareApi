@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Netktichen\ShopwareApi\Data\Response;
+namespace TheCodeBunny\ShopwareApi\Data\Response;
 
-use Netktichen\ShopwareApi\Data\Webhook\ShopRegistrationResult;
+use TheCodeBunny\ShopwareApi\Data\Webhook\ShopRegistrationResult;
 
 class RegistrationResponse extends SdkResponse
 {

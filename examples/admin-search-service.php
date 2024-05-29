@@ -2,11 +2,11 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
-use Netktichen\ShopwareApi\Data\Context;
-use Netktichen\ShopwareApi\Service\AdminSearchService;
-use Netktichen\ShopwareApi\Data\Criteria;
-use Netktichen\ShopwareApi\Service\Struct\KeyValuePairs;
-use Netktichen\ShopwareApi\Service\Struct\KeyValuePair;
+use TheCodeBunny\ShopwareApi\Data\Context;
+use TheCodeBunny\ShopwareApi\Service\AdminSearchService;
+use TheCodeBunny\ShopwareApi\Data\Criteria;
+use TheCodeBunny\ShopwareApi\Service\Struct\KeyValuePairs;
+use TheCodeBunny\ShopwareApi\Service\Struct\KeyValuePair;
 
 class AdminSearchExample {
     public function execute(): void

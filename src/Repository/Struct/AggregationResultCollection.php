@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Netktichen\ShopwareApi\Repository\Struct;
+namespace TheCodeBunny\ShopwareApi\Repository\Struct;
 
 class AggregationResultCollection
 {

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Netktichen\ShopwareApi\Data\Entity;
+namespace TheCodeBunny\ShopwareApi\Data\Entity;
 
-use Netktichen\ShopwareApi\Data\Schema\Schema;
+use TheCodeBunny\ShopwareApi\Data\Schema\Schema;
 
 interface EntityDefinition
 {
