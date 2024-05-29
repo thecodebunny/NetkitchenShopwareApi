@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="109b5a88-bd77-43d0-bcc7-768fffbefa84" name="Changes" comment="Package Name Change">
       <change beforePath="$PROJECT_DIR$/.idea/NetkitchenShopwareApi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NetkitchenShopwareApi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1716903978850</updated>
       <workItem from="1716903980048" duration="1842000" />
-      <workItem from="1716993137191" duration="545000" />
+      <workItem from="1716993137191" duration="704000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Release">
       <option name="closed" value="true" />
@@ -106,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716993516220</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Package Name Change">
+      <option name="closed" value="true" />
+      <created>1716993717449</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716993717449</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

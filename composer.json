@@ -32,7 +32,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Thecodebunny\\ShopwareApiTest\\": "tests/"
+            "Thecodebunny\\ShopwareApiTest": "tests/"
         }
     },
     "scripts": {
