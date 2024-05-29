@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Netkichen\\ShopwareApi\\": "src"
+            "Thecodebunny\\ShopwareApi\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Netkichen\\ShopwareApiTest\\": "tests/"
+            "Thecodebunny\\ShopwareApiTest\\": "tests/"
         }
     },
     "scripts": {
