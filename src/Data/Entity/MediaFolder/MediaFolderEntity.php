@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\MediaFolder;
+namespace Thecodebunny\ShopwareApi\Data\Entity\MediaFolder;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\Media\MediaCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\MediaDefaultFolder\MediaDefaultFolderEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\MediaFolderConfiguration\MediaFolderConfigurationEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\Media\MediaCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\MediaDefaultFolder\MediaDefaultFolderEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\MediaFolderConfiguration\MediaFolderConfigurationEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

@@ -1,28 +1,28 @@
 <?php declare(strict_types=1);
 
-namespace TheCodeBunny\ShopwareApi\Repository;
+namespace Thecodebunny\ShopwareApi\Repository;
 
 use GuzzleHttp\Exception\BadResponseException;
-use TheCodeBunny\ShopwareApi\Client\CreateClientTrait;
-use TheCodeBunny\ShopwareApi\Data\Context;
-use TheCodeBunny\ShopwareApi\Data\Criteria;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
-use TheCodeBunny\ShopwareApi\Data\Entity\EntityDefinition;
-use TheCodeBunny\ShopwareApi\Data\Uuid\Uuid;
-use TheCodeBunny\ShopwareApi\Exception\ShopwareResponseException;
-use TheCodeBunny\ShopwareApi\Exception\ShopwareSearchResponseException;
-use TheCodeBunny\ShopwareApi\Factory\HydratorFactory;
-use TheCodeBunny\ShopwareApi\Hydrate\HydratorInterface;
-use TheCodeBunny\ShopwareApi\Repository\Struct\AggregationResultCollection;
-use TheCodeBunny\ShopwareApi\Repository\Struct\CloneBehaviour;
-use TheCodeBunny\ShopwareApi\Repository\Struct\EntitySearchResult;
-use TheCodeBunny\ShopwareApi\Repository\Struct\IdSearchResult;
-use TheCodeBunny\ShopwareApi\Repository\Struct\SearchResultMeta;
-use TheCodeBunny\ShopwareApi\Repository\Struct\VersionResponse;
-use TheCodeBunny\ShopwareApi\Service\ApiResponse;
-use TheCodeBunny\ShopwareApi\Service\Struct\SyncOperator;
-use TheCodeBunny\ShopwareApi\Service\Struct\SyncPayload;
-use TheCodeBunny\ShopwareApi\Service\SyncService;
+use Thecodebunny\ShopwareApi\Client\CreateClientTrait;
+use Thecodebunny\ShopwareApi\Data\Context;
+use Thecodebunny\ShopwareApi\Data\Criteria;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\EntityDefinition;
+use Thecodebunny\ShopwareApi\Data\Uuid\Uuid;
+use Thecodebunny\ShopwareApi\Exception\ShopwareResponseException;
+use Thecodebunny\ShopwareApi\Exception\ShopwareSearchResponseException;
+use Thecodebunny\ShopwareApi\Factory\HydratorFactory;
+use Thecodebunny\ShopwareApi\Hydrate\HydratorInterface;
+use Thecodebunny\ShopwareApi\Repository\Struct\AggregationResultCollection;
+use Thecodebunny\ShopwareApi\Repository\Struct\CloneBehaviour;
+use Thecodebunny\ShopwareApi\Repository\Struct\EntitySearchResult;
+use Thecodebunny\ShopwareApi\Repository\Struct\IdSearchResult;
+use Thecodebunny\ShopwareApi\Repository\Struct\SearchResultMeta;
+use Thecodebunny\ShopwareApi\Repository\Struct\VersionResponse;
+use Thecodebunny\ShopwareApi\Service\ApiResponse;
+use Thecodebunny\ShopwareApi\Service\Struct\SyncOperator;
+use Thecodebunny\ShopwareApi\Service\Struct\SyncPayload;
+use Thecodebunny\ShopwareApi\Service\SyncService;
 
 class EntityRepository implements RepositoryInterface
 {

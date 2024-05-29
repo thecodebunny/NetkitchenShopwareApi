@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace TheCodeBunny\ShopwareApi\Data\Aggregation;
+namespace Thecodebunny\ShopwareApi\Data\Aggregation;
 
-use TheCodeBunny\ShopwareApi\Data\ParseAware;
+use Thecodebunny\ShopwareApi\Data\ParseAware;
 
 abstract class Aggregation implements ParseAware
 {

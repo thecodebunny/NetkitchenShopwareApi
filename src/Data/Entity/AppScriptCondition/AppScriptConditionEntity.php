@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\AppScriptCondition;
+namespace Thecodebunny\ShopwareApi\Data\Entity\AppScriptCondition;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\App\AppEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\RuleCondition\RuleConditionCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\AppScriptConditionTranslation\AppScriptConditionTranslationCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\App\AppEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\RuleCondition\RuleConditionCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\AppScriptConditionTranslation\AppScriptConditionTranslationCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\CustomerRecovery;
+namespace Thecodebunny\ShopwareApi\Data\Entity\CustomerRecovery;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\Customer\CustomerEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\Customer\CustomerEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

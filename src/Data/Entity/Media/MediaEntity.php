@@ -1,31 +1,31 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\Media;
+namespace Thecodebunny\ShopwareApi\Data\Entity\Media;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\MediaTranslation\MediaTranslationCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Tag\TagCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\MediaThumbnail\MediaThumbnailCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\User\UserEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\Category\CategoryCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\ProductManufacturer\ProductManufacturerCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\ProductMedia\ProductMediaCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\ProductDownload\ProductDownloadCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\OrderLineItemDownload\OrderLineItemDownloadCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\User\UserCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\MediaFolder\MediaFolderEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\PropertyGroupOption\PropertyGroupOptionCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\MailTemplateMedia\MailTemplateMediaCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\DocumentBaseConfig\DocumentBaseConfigCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\ShippingMethod\ShippingMethodCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\PaymentMethod\PaymentMethodCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\ProductConfiguratorSetting\ProductConfiguratorSettingCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\OrderLineItem\OrderLineItemCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\CmsBlock\CmsBlockCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\CmsSection\CmsSectionCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\CmsPage\CmsPageCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Document\DocumentCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\AppPaymentMethod\AppPaymentMethodCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Theme\ThemeCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\MediaTranslation\MediaTranslationCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Tag\TagCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\MediaThumbnail\MediaThumbnailCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\User\UserEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\Category\CategoryCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\ProductManufacturer\ProductManufacturerCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\ProductMedia\ProductMediaCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\ProductDownload\ProductDownloadCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\OrderLineItemDownload\OrderLineItemDownloadCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\User\UserCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\MediaFolder\MediaFolderEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\PropertyGroupOption\PropertyGroupOptionCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\MailTemplateMedia\MailTemplateMediaCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\DocumentBaseConfig\DocumentBaseConfigCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\ShippingMethod\ShippingMethodCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\PaymentMethod\PaymentMethodCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\ProductConfiguratorSetting\ProductConfiguratorSettingCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\OrderLineItem\OrderLineItemCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\CmsBlock\CmsBlockCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\CmsSection\CmsSectionCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\CmsPage\CmsPageCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Document\DocumentCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\AppPaymentMethod\AppPaymentMethodCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Theme\ThemeCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

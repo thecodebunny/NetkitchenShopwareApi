@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace TheCodeBunny\ShopwareApi\Data\Mail;
+namespace Thecodebunny\ShopwareApi\Data\Mail;
 
-use TheCodeBunny\ShopwareApi\Data\Struct;
+use Thecodebunny\ShopwareApi\Data\Struct;
 
 class Mail extends Struct
 {

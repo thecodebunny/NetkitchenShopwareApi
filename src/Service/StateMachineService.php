@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
 
-namespace TheCodeBunny\ShopwareApi\Service;
+namespace Thecodebunny\ShopwareApi\Service;
 
 /**
  *
  * Class StateMachineService
- * @package TheCodeBunny\ShopwareApi\Service
+ * @package Thecodebunny\ShopwareApi\Service
  */
 class StateMachineService extends ApiService
 {

@@ -2,18 +2,18 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
-use TheCodeBunny\ShopwareApi\Data\Context;
-use TheCodeBunny\ShopwareApi\Data\Entity\Product\ProductDefinition;
-use TheCodeBunny\ShopwareApi\Exception\ShopwareResponseException;
-use TheCodeBunny\ShopwareApi\Factory\RepositoryFactory;
-use TheCodeBunny\ShopwareApi\Data\Criteria;
-use TheCodeBunny\ShopwareApi\Data\Filter\ContainsFilter;
-use TheCodeBunny\ShopwareApi\Data\Aggregation\SumAggregation;
-use TheCodeBunny\ShopwareApi\Data\Entity\Product\ProductEntity;
-use TheCodeBunny\ShopwareApi\Data\Aggregation\CountAggregation;
-use TheCodeBunny\ShopwareApi\Data\Entity\Product\ProductCollection;
-use TheCodeBunny\ShopwareApi\Data\Uuid\Uuid;
-use TheCodeBunny\ShopwareApi\Data\FieldSorting;
+use Thecodebunny\ShopwareApi\Data\Context;
+use Thecodebunny\ShopwareApi\Data\Entity\Product\ProductDefinition;
+use Thecodebunny\ShopwareApi\Exception\ShopwareResponseException;
+use Thecodebunny\ShopwareApi\Factory\RepositoryFactory;
+use Thecodebunny\ShopwareApi\Data\Criteria;
+use Thecodebunny\ShopwareApi\Data\Filter\ContainsFilter;
+use Thecodebunny\ShopwareApi\Data\Aggregation\SumAggregation;
+use Thecodebunny\ShopwareApi\Data\Entity\Product\ProductEntity;
+use Thecodebunny\ShopwareApi\Data\Aggregation\CountAggregation;
+use Thecodebunny\ShopwareApi\Data\Entity\Product\ProductCollection;
+use Thecodebunny\ShopwareApi\Data\Uuid\Uuid;
+use Thecodebunny\ShopwareApi\Data\FieldSorting;
 
 class EntityRepositoryExample {
     public function execute(): void

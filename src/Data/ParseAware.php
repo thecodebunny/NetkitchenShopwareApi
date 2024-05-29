@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace TheCodeBunny\ShopwareApi\Data;
+namespace Thecodebunny\ShopwareApi\Data;
 
 interface ParseAware
 {

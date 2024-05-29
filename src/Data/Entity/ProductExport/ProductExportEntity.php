@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\ProductExport;
+namespace Thecodebunny\ShopwareApi\Data\Entity\ProductExport;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\ProductStream\ProductStreamEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\SalesChannel\SalesChannelEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\SalesChannelDomain\SalesChannelDomainEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\Currency\CurrencyEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\ProductStream\ProductStreamEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\SalesChannel\SalesChannelEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\SalesChannelDomain\SalesChannelDomainEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\Currency\CurrencyEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

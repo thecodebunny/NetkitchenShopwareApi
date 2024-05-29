@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace TheCodeBunny\ShopwareApi\Data\Webhook;
+namespace Thecodebunny\ShopwareApi\Data\Webhook;
 
 class ShopRequest
 {

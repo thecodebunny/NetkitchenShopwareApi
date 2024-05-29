@@ -2,10 +2,10 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
-use TheCodeBunny\ShopwareApi\Data\Context;
-use TheCodeBunny\ShopwareApi\Service\UserConfigService;
-use TheCodeBunny\ShopwareApi\Service\Struct\KeyValuePair;
-use TheCodeBunny\ShopwareApi\Service\Struct\KeyValuePairs;
+use Thecodebunny\ShopwareApi\Data\Context;
+use Thecodebunny\ShopwareApi\Service\UserConfigService;
+use Thecodebunny\ShopwareApi\Service\Struct\KeyValuePair;
+use Thecodebunny\ShopwareApi\Service\Struct\KeyValuePairs;
 
 class UserConfigServiceExample {
     public function execute(): void

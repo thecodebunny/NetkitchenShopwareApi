@@ -1,20 +1,20 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\App;
+namespace Thecodebunny\ShopwareApi\Data\Entity\App;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\AppTranslation\AppTranslationCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Integration\IntegrationEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\AclRole\AclRoleEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\CustomFieldSet\CustomFieldSetCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\AppActionButton\AppActionButtonCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\AppTemplate\AppTemplateCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Script\ScriptCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Webhook\WebhookCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\AppPaymentMethod\AppPaymentMethodCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\TaxProvider\TaxProviderCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\AppScriptCondition\AppScriptConditionCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\AppCmsBlock\AppCmsBlockCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\AppFlowAction\AppFlowActionCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\AppTranslation\AppTranslationCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Integration\IntegrationEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\AclRole\AclRoleEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\CustomFieldSet\CustomFieldSetCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\AppActionButton\AppActionButtonCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\AppTemplate\AppTemplateCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Script\ScriptCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Webhook\WebhookCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\AppPaymentMethod\AppPaymentMethodCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\TaxProvider\TaxProviderCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\AppScriptCondition\AppScriptConditionCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\AppCmsBlock\AppCmsBlockCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\AppFlowAction\AppFlowActionCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

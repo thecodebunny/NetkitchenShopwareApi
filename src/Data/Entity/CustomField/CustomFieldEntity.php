@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\CustomField;
+namespace Thecodebunny\ShopwareApi\Data\Entity\CustomField;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\CustomFieldSet\CustomFieldSetEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\ProductSearchConfigField\ProductSearchConfigFieldCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\CustomFieldSet\CustomFieldSetEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\ProductSearchConfigField\ProductSearchConfigFieldCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

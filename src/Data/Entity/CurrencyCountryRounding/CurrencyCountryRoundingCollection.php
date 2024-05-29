@@ -1,7 +1,7 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\CurrencyCountryRounding;
+namespace Thecodebunny\ShopwareApi\Data\Entity\CurrencyCountryRounding;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\EntityCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\EntityCollection;
 
 /**
  * Shopware Collection Mapping Class

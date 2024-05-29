@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace TheCodeBunny\ShopwareApi\Data\Uuid\Exception;
+namespace Thecodebunny\ShopwareApi\Data\Uuid\Exception;
 
 class InvalidUuidException extends \Exception
 {

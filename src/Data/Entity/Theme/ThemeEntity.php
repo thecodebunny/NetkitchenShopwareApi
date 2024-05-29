@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\Theme;
+namespace Thecodebunny\ShopwareApi\Data\Entity\Theme;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\ThemeTranslation\ThemeTranslationCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\SalesChannel\SalesChannelCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Media\MediaCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Media\MediaEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\ThemeTranslation\ThemeTranslationCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\SalesChannel\SalesChannelCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Media\MediaCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Media\MediaEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

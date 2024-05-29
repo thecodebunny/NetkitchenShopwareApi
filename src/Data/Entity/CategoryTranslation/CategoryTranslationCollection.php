@@ -1,7 +1,7 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\CategoryTranslation;
+namespace Thecodebunny\ShopwareApi\Data\Entity\CategoryTranslation;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\EntityCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\EntityCollection;
 
 /**
  * Shopware Collection Mapping Class

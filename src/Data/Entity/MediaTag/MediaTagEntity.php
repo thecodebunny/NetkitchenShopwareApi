@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\MediaTag;
+namespace Thecodebunny\ShopwareApi\Data\Entity\MediaTag;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\Media\MediaEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\Tag\TagEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\Media\MediaEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\Tag\TagEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

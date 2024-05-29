@@ -1,13 +1,13 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\Salutation;
+namespace Thecodebunny\ShopwareApi\Data\Entity\Salutation;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\SalutationTranslation\SalutationTranslationCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Customer\CustomerCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\CustomerAddress\CustomerAddressCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\OrderCustomer\OrderCustomerCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\OrderAddress\OrderAddressCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\NewsletterRecipient\NewsletterRecipientCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\SalutationTranslation\SalutationTranslationCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Customer\CustomerCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\CustomerAddress\CustomerAddressCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\OrderCustomer\OrderCustomerCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\OrderAddress\OrderAddressCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\NewsletterRecipient\NewsletterRecipientCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

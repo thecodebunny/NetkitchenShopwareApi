@@ -1,18 +1,18 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\Rule;
+namespace Thecodebunny\ShopwareApi\Data\Entity\Rule;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\RuleCondition\RuleConditionCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\ProductPrice\ProductPriceCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\ShippingMethodPrice\ShippingMethodPriceCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\ShippingMethod\ShippingMethodCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\PaymentMethod\PaymentMethodCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\FlowSequence\FlowSequenceCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\TaxProvider\TaxProviderCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Tag\TagCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Promotion\PromotionCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\PromotionDiscount\PromotionDiscountCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\PromotionSetgroup\PromotionSetgroupCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\RuleCondition\RuleConditionCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\ProductPrice\ProductPriceCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\ShippingMethodPrice\ShippingMethodPriceCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\ShippingMethod\ShippingMethodCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\PaymentMethod\PaymentMethodCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\FlowSequence\FlowSequenceCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\TaxProvider\TaxProviderCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Tag\TagCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Promotion\PromotionCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\PromotionDiscount\PromotionDiscountCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\PromotionSetgroup\PromotionSetgroupCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

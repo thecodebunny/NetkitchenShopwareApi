@@ -1,12 +1,12 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\LandingPage;
+namespace Thecodebunny\ShopwareApi\Data\Entity\LandingPage;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\LandingPageTranslation\LandingPageTranslationCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Tag\TagCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\CmsPage\CmsPageEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\SalesChannel\SalesChannelCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\SeoUrl\SeoUrlCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\LandingPageTranslation\LandingPageTranslationCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Tag\TagCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\CmsPage\CmsPageEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\SalesChannel\SalesChannelCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\SeoUrl\SeoUrlCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

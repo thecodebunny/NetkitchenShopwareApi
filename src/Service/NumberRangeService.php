@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
 
-namespace TheCodeBunny\ShopwareApi\Service;
+namespace Thecodebunny\ShopwareApi\Service;
 
 /**
  *
  * Class NumberRangeService
- * @package TheCodeBunny\ShopwareApi\Service
+ * @package Thecodebunny\ShopwareApi\Service
  */
 class NumberRangeService extends ApiService
 {

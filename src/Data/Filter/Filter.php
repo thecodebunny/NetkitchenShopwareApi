@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace TheCodeBunny\ShopwareApi\Data\Filter;
+namespace Thecodebunny\ShopwareApi\Data\Filter;
 
-use TheCodeBunny\ShopwareApi\Data\ParseAware;
+use Thecodebunny\ShopwareApi\Data\ParseAware;
 
 abstract class Filter implements ParseAware
 {

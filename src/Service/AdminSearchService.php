@@ -1,18 +1,18 @@
 <?php declare(strict_types=1);
 
-namespace TheCodeBunny\ShopwareApi\Service;
+namespace Thecodebunny\ShopwareApi\Service;
 
 use GuzzleHttp\Exception\BadResponseException;
-use TheCodeBunny\ShopwareApi\Data\Context;
-use TheCodeBunny\ShopwareApi\Data\Criteria;
-use TheCodeBunny\ShopwareApi\Exception\ShopwareResponseException;
-use TheCodeBunny\ShopwareApi\Factory\HydratorFactory;
-use TheCodeBunny\ShopwareApi\Hydrate\HydratorInterface;
-use TheCodeBunny\ShopwareApi\Repository\Struct\AggregationResultCollection;
-use TheCodeBunny\ShopwareApi\Repository\Struct\EntitySearchResult;
-use TheCodeBunny\ShopwareApi\Repository\Struct\SearchResultMeta;
-use TheCodeBunny\ShopwareApi\Service\Struct\KeyValuePair;
-use TheCodeBunny\ShopwareApi\Service\Struct\KeyValuePairs;
+use Thecodebunny\ShopwareApi\Data\Context;
+use Thecodebunny\ShopwareApi\Data\Criteria;
+use Thecodebunny\ShopwareApi\Exception\ShopwareResponseException;
+use Thecodebunny\ShopwareApi\Factory\HydratorFactory;
+use Thecodebunny\ShopwareApi\Hydrate\HydratorInterface;
+use Thecodebunny\ShopwareApi\Repository\Struct\AggregationResultCollection;
+use Thecodebunny\ShopwareApi\Repository\Struct\EntitySearchResult;
+use Thecodebunny\ShopwareApi\Repository\Struct\SearchResultMeta;
+use Thecodebunny\ShopwareApi\Service\Struct\KeyValuePair;
+use Thecodebunny\ShopwareApi\Service\Struct\KeyValuePairs;
 
 class AdminSearchService extends ApiService
 {

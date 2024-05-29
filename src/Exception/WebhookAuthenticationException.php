@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace TheCodeBunny\ShopwareApi\Exception;
+namespace Thecodebunny\ShopwareApi\Exception;
 
-use TheCodeBunny\ShopwareApi\Data\Webhook\App;
-use TheCodeBunny\ShopwareApi\Data\Webhook\Shop;
+use Thecodebunny\ShopwareApi\Data\Webhook\App;
+use Thecodebunny\ShopwareApi\Data\Webhook\Shop;
 
 class WebhookAuthenticationException extends \Exception
 {

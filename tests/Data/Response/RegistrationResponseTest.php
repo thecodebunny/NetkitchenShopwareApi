@@ -5,12 +5,12 @@ namespace Vin\ShopwareSdkTest\Data\Response;
 
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\ResponseInterface;
-use TheCodeBunny\ShopwareApi\Data\Response\RegistrationResponse;
-use TheCodeBunny\ShopwareApi\Data\Webhook\Shop;
-use TheCodeBunny\ShopwareApi\Data\Webhook\ShopRegistrationResult;
+use Thecodebunny\ShopwareApi\Data\Response\RegistrationResponse;
+use Thecodebunny\ShopwareApi\Data\Webhook\Shop;
+use Thecodebunny\ShopwareApi\Data\Webhook\ShopRegistrationResult;
 
 /**
- * @covers \TheCodeBunny\ShopwareApi\Data\Response\RegistrationResponse
+ * @covers \Thecodebunny\ShopwareApi\Data\Response\RegistrationResponse
  */
 class RegistrationResponseTest extends TestCase
 {

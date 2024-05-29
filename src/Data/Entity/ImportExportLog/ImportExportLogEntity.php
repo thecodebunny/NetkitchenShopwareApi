@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\ImportExportLog;
+namespace Thecodebunny\ShopwareApi\Data\Entity\ImportExportLog;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\User\UserEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\ImportExportProfile\ImportExportProfileEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\ImportExportFile\ImportExportFileEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\User\UserEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\ImportExportProfile\ImportExportProfileEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\ImportExportFile\ImportExportFileEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

@@ -5,13 +5,13 @@ declare(strict_types=1);
 namespace Vin\ShopwareSdkTest;
 
 use PHPUnit\Framework\TestCase;
-use TheCodeBunny\ShopwareApi\Data\AccessToken;
-use TheCodeBunny\ShopwareApi\Data\Context;
-use TheCodeBunny\ShopwareApi\Data\Schema\Schema;
-use TheCodeBunny\ShopwareApi\Service\InfoService;
+use Thecodebunny\ShopwareApi\Data\AccessToken;
+use Thecodebunny\ShopwareApi\Data\Context;
+use Thecodebunny\ShopwareApi\Data\Schema\Schema;
+use Thecodebunny\ShopwareApi\Service\InfoService;
 
 /**
- * @covers \TheCodeBunny\ShopwareApi\Service\InfoService
+ * @covers \Thecodebunny\ShopwareApi\Service\InfoService
  */
 class InfoServiceTest extends TestCase
 {

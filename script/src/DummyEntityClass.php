@@ -2,7 +2,7 @@
 
 namespace Vin\Script;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 class DummyEntityClass extends Entity
 {

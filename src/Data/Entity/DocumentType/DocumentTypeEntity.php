@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\DocumentType;
+namespace Thecodebunny\ShopwareApi\Data\Entity\DocumentType;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\DocumentTypeTranslation\DocumentTypeTranslationCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Document\DocumentCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\DocumentBaseConfig\DocumentBaseConfigCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\DocumentBaseConfigSalesChannel\DocumentBaseConfigSalesChannelCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\DocumentTypeTranslation\DocumentTypeTranslationCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Document\DocumentCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\DocumentBaseConfig\DocumentBaseConfigCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\DocumentBaseConfigSalesChannel\DocumentBaseConfigSalesChannelCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

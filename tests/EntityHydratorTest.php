@@ -7,19 +7,19 @@ namespace Vin\ShopwareSdkTest;
 use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\HandlerStack;
 use PHPUnit\Framework\TestCase;
-use TheCodeBunny\ShopwareApi\Data\AccessToken;
-use TheCodeBunny\ShopwareApi\Data\Context;
-use TheCodeBunny\ShopwareApi\Data\Entity\EntityCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Product\ProductCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Product\ProductDefinition;
-use TheCodeBunny\ShopwareApi\Data\Entity\Product\ProductEntity;
-use TheCodeBunny\ShopwareApi\Data\Uuid\Uuid;
-use TheCodeBunny\ShopwareApi\Factory\RepositoryFactory;
-use TheCodeBunny\ShopwareApi\Hydrate\EntityHydrator;
-use TheCodeBunny\ShopwareApi\Client\Client;
+use Thecodebunny\ShopwareApi\Data\AccessToken;
+use Thecodebunny\ShopwareApi\Data\Context;
+use Thecodebunny\ShopwareApi\Data\Entity\EntityCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Product\ProductCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Product\ProductDefinition;
+use Thecodebunny\ShopwareApi\Data\Entity\Product\ProductEntity;
+use Thecodebunny\ShopwareApi\Data\Uuid\Uuid;
+use Thecodebunny\ShopwareApi\Factory\RepositoryFactory;
+use Thecodebunny\ShopwareApi\Hydrate\EntityHydrator;
+use Thecodebunny\ShopwareApi\Client\Client;
 
 /**
- * @covers \TheCodeBunny\ShopwareApi\Hydrate\EntityHydrator
+ * @covers \Thecodebunny\ShopwareApi\Hydrate\EntityHydrator
  */
 class EntityHydratorTest extends TestCase
 {

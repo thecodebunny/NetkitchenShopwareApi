@@ -2,9 +2,9 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
-use TheCodeBunny\ShopwareApi\Data\Context;
-use TheCodeBunny\ShopwareApi\Service\InfoService;
-use TheCodeBunny\ShopwareApi\Service\UserService;
+use Thecodebunny\ShopwareApi\Data\Context;
+use Thecodebunny\ShopwareApi\Service\InfoService;
+use Thecodebunny\ShopwareApi\Service\UserService;
 
 class InfoServiceExample {
     public function execute(): void

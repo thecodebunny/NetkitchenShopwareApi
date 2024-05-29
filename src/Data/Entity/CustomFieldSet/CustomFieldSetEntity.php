@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\CustomFieldSet;
+namespace Thecodebunny\ShopwareApi\Data\Entity\CustomFieldSet;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\CustomFieldSetRelation\CustomFieldSetRelationCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Product\ProductCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\App\AppEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\CustomFieldSetRelation\CustomFieldSetRelationCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Product\ProductCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\App\AppEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

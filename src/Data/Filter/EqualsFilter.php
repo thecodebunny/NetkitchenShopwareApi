@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace TheCodeBunny\ShopwareApi\Data\Filter;
+namespace Thecodebunny\ShopwareApi\Data\Filter;
 
 class EqualsFilter extends Filter
 {

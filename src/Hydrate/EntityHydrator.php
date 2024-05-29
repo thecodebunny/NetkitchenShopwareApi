@@ -1,16 +1,16 @@
 <?php declare(strict_types=1);
 
-namespace TheCodeBunny\ShopwareApi\Hydrate;
+namespace Thecodebunny\ShopwareApi\Hydrate;
 
 use Exception;
-use TheCodeBunny\ShopwareApi\Data\Context;
-use TheCodeBunny\ShopwareApi\Data\Entity\Custom\CustomDefinition;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
-use TheCodeBunny\ShopwareApi\Data\Entity\EntityCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\EntityDefinition;
-use TheCodeBunny\ShopwareApi\Data\Schema\Schema;
-use TheCodeBunny\ShopwareApi\Factory\RepositoryFactory;
-use TheCodeBunny\ShopwareApi\Service\InfoService;
+use Thecodebunny\ShopwareApi\Data\Context;
+use Thecodebunny\ShopwareApi\Data\Entity\Custom\CustomDefinition;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\EntityCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\EntityDefinition;
+use Thecodebunny\ShopwareApi\Data\Schema\Schema;
+use Thecodebunny\ShopwareApi\Factory\RepositoryFactory;
+use Thecodebunny\ShopwareApi\Service\InfoService;
 
 class EntityHydrator implements HydratorInterface
 {

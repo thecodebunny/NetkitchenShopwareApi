@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace TheCodeBunny\ShopwareApi\Client;
+namespace Thecodebunny\ShopwareApi\Client;
 
 use GuzzleHttp\Exception\BadResponseException;
-use TheCodeBunny\ShopwareApi\Client\GrantType\ClientCredentialsGrantType;
-use TheCodeBunny\ShopwareApi\Client\GrantType\GrantType;
-use TheCodeBunny\ShopwareApi\Client\GrantType\PasswordGrantType;
-use TheCodeBunny\ShopwareApi\Client\GrantType\RefreshTokenGrantType;
-use TheCodeBunny\ShopwareApi\Data\AccessToken;
-use TheCodeBunny\ShopwareApi\Data\EndPointTrait;
-use TheCodeBunny\ShopwareApi\Exception\AuthorizationFailedException;
+use Thecodebunny\ShopwareApi\Client\GrantType\ClientCredentialsGrantType;
+use Thecodebunny\ShopwareApi\Client\GrantType\GrantType;
+use Thecodebunny\ShopwareApi\Client\GrantType\PasswordGrantType;
+use Thecodebunny\ShopwareApi\Client\GrantType\RefreshTokenGrantType;
+use Thecodebunny\ShopwareApi\Data\AccessToken;
+use Thecodebunny\ShopwareApi\Data\EndPointTrait;
+use Thecodebunny\ShopwareApi\Exception\AuthorizationFailedException;
 
 class AdminAuthenticator
 {

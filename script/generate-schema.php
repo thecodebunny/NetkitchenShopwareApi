@@ -2,11 +2,11 @@
 
 require __DIR__ . '/vendor/autoload.php';
 
-use TheCodeBunny\ShopwareApi\Service\InfoService;
+use Thecodebunny\ShopwareApi\Service\InfoService;
 use Vin\Script\CodeGenerator;
-use TheCodeBunny\ShopwareApi\Client\GrantType\GrantType;
-use TheCodeBunny\ShopwareApi\Client\AdminAuthenticator;
-use TheCodeBunny\ShopwareApi\Data\Context;
+use Thecodebunny\ShopwareApi\Client\GrantType\GrantType;
+use Thecodebunny\ShopwareApi\Client\AdminAuthenticator;
+use Thecodebunny\ShopwareApi\Data\Context;
 
 $config = file_get_contents(__DIR__ . '/config.json');
 $config = json_decode($config, true);

@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\PromotionIndividualCode;
+namespace Thecodebunny\ShopwareApi\Data\Entity\PromotionIndividualCode;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\Promotion\PromotionEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\Promotion\PromotionEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

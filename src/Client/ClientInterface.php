@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace TheCodeBunny\ShopwareApi\Client;
+namespace Thecodebunny\ShopwareApi\Client;
 
 use Psr\Http\Client\ClientInterface as HttpClient;
 use Psr\Http\Message\ResponseInterface;

@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\Tax;
+namespace Thecodebunny\ShopwareApi\Data\Entity\Tax;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\Product\ProductCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\TaxRule\TaxRuleCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\ShippingMethod\ShippingMethodCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\Product\ProductCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\TaxRule\TaxRuleCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\ShippingMethod\ShippingMethodCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

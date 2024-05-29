@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
 
-namespace TheCodeBunny\ShopwareApi\Service;
+namespace Thecodebunny\ShopwareApi\Service;
 
-use TheCodeBunny\ShopwareApi\Data\Webhook\App;
-use TheCodeBunny\ShopwareApi\Data\Webhook\Shop;
-use TheCodeBunny\ShopwareApi\Data\Webhook\ShopRegistrationResult;
-use TheCodeBunny\ShopwareApi\Exception\WebhookAuthenticationException;
+use Thecodebunny\ShopwareApi\Data\Webhook\App;
+use Thecodebunny\ShopwareApi\Data\Webhook\Shop;
+use Thecodebunny\ShopwareApi\Data\Webhook\ShopRegistrationResult;
+use Thecodebunny\ShopwareApi\Exception\WebhookAuthenticationException;
 
 class WebhookAuthenticator
 {

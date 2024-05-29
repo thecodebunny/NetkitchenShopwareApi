@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\MediaFolderConfigurationMediaThumbnailSize;
+namespace Thecodebunny\ShopwareApi\Data\Entity\MediaFolderConfigurationMediaThumbnailSize;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\MediaFolderConfiguration\MediaFolderConfigurationEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\MediaThumbnailSize\MediaThumbnailSizeEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\MediaFolderConfiguration\MediaFolderConfigurationEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\MediaThumbnailSize\MediaThumbnailSizeEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

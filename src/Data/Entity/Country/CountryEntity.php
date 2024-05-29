@@ -1,14 +1,14 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\Country;
+namespace Thecodebunny\ShopwareApi\Data\Entity\Country;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\CountryState\CountryStateCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\CountryTranslation\CountryTranslationCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\CustomerAddress\CustomerAddressCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\OrderAddress\OrderAddressCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\SalesChannel\SalesChannelCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\TaxRule\TaxRuleCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\CurrencyCountryRounding\CurrencyCountryRoundingCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\CountryState\CountryStateCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\CountryTranslation\CountryTranslationCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\CustomerAddress\CustomerAddressCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\OrderAddress\OrderAddressCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\SalesChannel\SalesChannelCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\TaxRule\TaxRuleCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\CurrencyCountryRounding\CurrencyCountryRoundingCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

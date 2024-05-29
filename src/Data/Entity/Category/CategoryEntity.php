@@ -1,16 +1,16 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\Category;
+namespace Thecodebunny\ShopwareApi\Data\Entity\Category;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\Media\MediaEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\CategoryTranslation\CategoryTranslationCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Product\ProductCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Tag\TagCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\CmsPage\CmsPageEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\ProductStream\ProductStreamEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\SalesChannel\SalesChannelCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\MainCategory\MainCategoryCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\SeoUrl\SeoUrlCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\Media\MediaEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\CategoryTranslation\CategoryTranslationCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Product\ProductCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Tag\TagCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\CmsPage\CmsPageEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\ProductStream\ProductStreamEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\SalesChannel\SalesChannelCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\MainCategory\MainCategoryCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\SeoUrl\SeoUrlCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

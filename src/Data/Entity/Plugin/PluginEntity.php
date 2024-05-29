@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\Plugin;
+namespace Thecodebunny\ShopwareApi\Data\Entity\Plugin;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\PluginTranslation\PluginTranslationCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\PaymentMethod\PaymentMethodCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\PluginTranslation\PluginTranslationCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\PaymentMethod\PaymentMethodCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

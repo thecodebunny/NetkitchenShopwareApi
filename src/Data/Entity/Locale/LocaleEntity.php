@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\Locale;
+namespace Thecodebunny\ShopwareApi\Data\Entity\Locale;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\Language\LanguageCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\LocaleTranslation\LocaleTranslationCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\User\UserCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\Language\LanguageCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\LocaleTranslation\LocaleTranslationCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\User\UserCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

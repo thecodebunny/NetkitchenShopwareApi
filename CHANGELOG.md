@@ -32,7 +32,7 @@ Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) princip
 
 ### 1.5.1
 - [Add property getter for Entity](https://github.com/vienthuong/shopware-php-sdk/pull/43)
-- [Introduce new admin api gateway `TheCodeBunny\ShopwareApi\Service\MediaService` to work with media endpoint and media-service in examples](https://github.com/vienthuong/shopware-php-sdk/issues/39)
+- [Introduce new admin api gateway `Thecodebunny\ShopwareApi\Service\MediaService` to work with media endpoint and media-service in examples](https://github.com/vienthuong/shopware-php-sdk/issues/39)
 - [Fixed AdminActionService to allow uppercase and lowercase http method](https://github.com/vienthuong/shopware-php-sdk/issues/35)
 - [Fixed AdminActionService to allow uppercase and lowercase http method](https://github.com/vienthuong/shopware-php-sdk/issues/35)
 - [Fixed AdminActionService to accept non-array data as third argument](https://github.com/vienthuong/shopware-php-sdk/issues/38)

@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace TheCodeBunny\ShopwareApi\Data\Webhook\AppAction;
+namespace Thecodebunny\ShopwareApi\Data\Webhook\AppAction;
 
-use TheCodeBunny\ShopwareApi\Data\Struct;
+use Thecodebunny\ShopwareApi\Data\Struct;
 
 class ActionMeta extends Struct
 {

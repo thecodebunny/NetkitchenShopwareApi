@@ -1,14 +1,14 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\OrderLineItem;
+namespace Thecodebunny\ShopwareApi\Data\Entity\OrderLineItem;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\Media\MediaEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\Order\OrderEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\Product\ProductEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\Promotion\PromotionEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\OrderDeliveryPosition\OrderDeliveryPositionCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\OrderTransactionCaptureRefundPosition\OrderTransactionCaptureRefundPositionCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\OrderLineItemDownload\OrderLineItemDownloadCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\Media\MediaEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\Order\OrderEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\Product\ProductEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\Promotion\PromotionEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\OrderDeliveryPosition\OrderDeliveryPositionCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\OrderTransactionCaptureRefundPosition\OrderTransactionCaptureRefundPositionCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\OrderLineItemDownload\OrderLineItemDownloadCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

@@ -1,19 +1,19 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\User;
+namespace Thecodebunny\ShopwareApi\Data\Entity\User;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\Locale\LocaleEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\Media\MediaEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\Media\MediaCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\UserAccessKey\UserAccessKeyCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\UserConfig\UserConfigCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\StateMachineHistory\StateMachineHistoryCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\ImportExportLog\ImportExportLogCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\AclRole\AclRoleCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\UserRecovery\UserRecoveryEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\Order\OrderCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Customer\CustomerCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Notification\NotificationCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\Locale\LocaleEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\Media\MediaEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\Media\MediaCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\UserAccessKey\UserAccessKeyCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\UserConfig\UserConfigCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\StateMachineHistory\StateMachineHistoryCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\ImportExportLog\ImportExportLogCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\AclRole\AclRoleCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\UserRecovery\UserRecoveryEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\Order\OrderCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Customer\CustomerCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Notification\NotificationCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

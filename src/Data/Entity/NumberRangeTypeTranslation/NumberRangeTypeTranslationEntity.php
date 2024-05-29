@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\NumberRangeTypeTranslation;
+namespace Thecodebunny\ShopwareApi\Data\Entity\NumberRangeTypeTranslation;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\NumberRangeType\NumberRangeTypeEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\Language\LanguageEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\NumberRangeType\NumberRangeTypeEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\Language\LanguageEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

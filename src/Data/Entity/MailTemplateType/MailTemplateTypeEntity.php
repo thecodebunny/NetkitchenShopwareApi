@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\MailTemplateType;
+namespace Thecodebunny\ShopwareApi\Data\Entity\MailTemplateType;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\MailTemplateTypeTranslation\MailTemplateTypeTranslationCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\MailTemplate\MailTemplateCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\MailTemplateTypeTranslation\MailTemplateTypeTranslationCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\MailTemplate\MailTemplateCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

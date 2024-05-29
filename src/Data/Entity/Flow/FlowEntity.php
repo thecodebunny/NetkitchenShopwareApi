@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\Flow;
+namespace Thecodebunny\ShopwareApi\Data\Entity\Flow;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\FlowSequence\FlowSequenceCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\FlowSequence\FlowSequenceCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

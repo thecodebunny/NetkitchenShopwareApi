@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace TheCodeBunny\ShopwareApi\Data\Aggregation;
+namespace Thecodebunny\ShopwareApi\Data\Aggregation;
 
 class AverageAggregation extends Aggregation
 {

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace TheCodeBunny\ShopwareApi\Data\Aggregation;
+namespace Thecodebunny\ShopwareApi\Data\Aggregation;
 
-use TheCodeBunny\ShopwareApi\Data\Filter\Filter;
+use Thecodebunny\ShopwareApi\Data\Filter\Filter;
 
 class HistogramAggregation extends Aggregation
 {

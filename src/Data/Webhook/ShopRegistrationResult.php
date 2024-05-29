@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace TheCodeBunny\ShopwareApi\Data\Webhook;
+namespace Thecodebunny\ShopwareApi\Data\Webhook;
 
-use TheCodeBunny\ShopwareApi\Data\Struct;
+use Thecodebunny\ShopwareApi\Data\Struct;
 
 class ShopRegistrationResult extends Struct
 {

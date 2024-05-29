@@ -1,13 +1,13 @@
 <?php declare(strict_types=1);
 
-namespace TheCodeBunny\ShopwareApi\Service;
+namespace Thecodebunny\ShopwareApi\Service;
 
 use GuzzleHttp\Exception\BadResponseException;
-use TheCodeBunny\ShopwareApi\Data\Entity\SystemConfig\SystemConfigCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\SystemConfig\SystemConfigEntity;
-use TheCodeBunny\ShopwareApi\Exception\ShopwareResponseException;
-use TheCodeBunny\ShopwareApi\Service\Struct\KeyValuePair;
-use TheCodeBunny\ShopwareApi\Service\Struct\KeyValuePairs;
+use Thecodebunny\ShopwareApi\Data\Entity\SystemConfig\SystemConfigCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\SystemConfig\SystemConfigEntity;
+use Thecodebunny\ShopwareApi\Exception\ShopwareResponseException;
+use Thecodebunny\ShopwareApi\Service\Struct\KeyValuePair;
+use Thecodebunny\ShopwareApi\Service\Struct\KeyValuePairs;
 
 class SystemConfigService extends ApiService
 {

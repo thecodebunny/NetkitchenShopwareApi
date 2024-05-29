@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\OrderTransactionCapture;
+namespace Thecodebunny\ShopwareApi\Data\Entity\OrderTransactionCapture;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\StateMachineState\StateMachineStateEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\OrderTransaction\OrderTransactionEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\OrderTransactionCaptureRefund\OrderTransactionCaptureRefundCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\StateMachineState\StateMachineStateEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\OrderTransaction\OrderTransactionEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\OrderTransactionCaptureRefund\OrderTransactionCaptureRefundCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

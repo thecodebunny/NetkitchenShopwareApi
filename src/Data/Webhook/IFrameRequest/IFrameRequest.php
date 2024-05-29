@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace TheCodeBunny\ShopwareApi\Data\Webhook\IFrameRequest;
+namespace Thecodebunny\ShopwareApi\Data\Webhook\IFrameRequest;
 
-use TheCodeBunny\ShopwareApi\Data\Struct;
-use TheCodeBunny\ShopwareApi\Data\Webhook\ShopRequest;
+use Thecodebunny\ShopwareApi\Data\Struct;
+use Thecodebunny\ShopwareApi\Data\Webhook\ShopRequest;
 
 class IFrameRequest extends Struct
 {

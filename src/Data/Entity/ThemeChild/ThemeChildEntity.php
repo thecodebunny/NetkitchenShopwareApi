@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\ThemeChild;
+namespace Thecodebunny\ShopwareApi\Data\Entity\ThemeChild;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\Theme\ThemeEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\Theme\ThemeEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

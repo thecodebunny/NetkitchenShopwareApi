@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace TheCodeBunny\ShopwareApi\Data;
+namespace Thecodebunny\ShopwareApi\Data;
 
-use TheCodeBunny\ShopwareApi\Data\Aggregation\Aggregation;
-use TheCodeBunny\ShopwareApi\Data\Aggregation\FilterAggregation;
-use TheCodeBunny\ShopwareApi\Data\Aggregation\TermsAggregation;
-use TheCodeBunny\ShopwareApi\Data\Filter\ContainsFilter;
-use TheCodeBunny\ShopwareApi\Data\Filter\EqualsAnyFilter;
-use TheCodeBunny\ShopwareApi\Data\Filter\EqualsFilter;
-use TheCodeBunny\ShopwareApi\Data\Filter\Filter;
-use TheCodeBunny\ShopwareApi\Data\Filter\MultiFilter;
-use TheCodeBunny\ShopwareApi\Data\Filter\NotFilter;
-use TheCodeBunny\ShopwareApi\Data\Filter\PrefixFilter;
-use TheCodeBunny\ShopwareApi\Data\Filter\RangeFilter;
-use TheCodeBunny\ShopwareApi\Data\Filter\SuffixFilter;
-use TheCodeBunny\ShopwareApi\Data\ScoreQuery\ScoreQuery;
+use Thecodebunny\ShopwareApi\Data\Aggregation\Aggregation;
+use Thecodebunny\ShopwareApi\Data\Aggregation\FilterAggregation;
+use Thecodebunny\ShopwareApi\Data\Aggregation\TermsAggregation;
+use Thecodebunny\ShopwareApi\Data\Filter\ContainsFilter;
+use Thecodebunny\ShopwareApi\Data\Filter\EqualsAnyFilter;
+use Thecodebunny\ShopwareApi\Data\Filter\EqualsFilter;
+use Thecodebunny\ShopwareApi\Data\Filter\Filter;
+use Thecodebunny\ShopwareApi\Data\Filter\MultiFilter;
+use Thecodebunny\ShopwareApi\Data\Filter\NotFilter;
+use Thecodebunny\ShopwareApi\Data\Filter\PrefixFilter;
+use Thecodebunny\ShopwareApi\Data\Filter\RangeFilter;
+use Thecodebunny\ShopwareApi\Data\Filter\SuffixFilter;
+use Thecodebunny\ShopwareApi\Data\ScoreQuery\ScoreQuery;
 
 class Criteria implements ParseAware
 {

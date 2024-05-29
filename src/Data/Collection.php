@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace TheCodeBunny\ShopwareApi\Data;
+namespace Thecodebunny\ShopwareApi\Data;
 
 abstract class Collection extends Struct implements \IteratorAggregate, \Countable
 {

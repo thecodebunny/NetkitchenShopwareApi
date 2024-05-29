@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace TheCodeBunny\ShopwareApi\Data\Entity;
+namespace Thecodebunny\ShopwareApi\Data\Entity;
 
 trait EntityCustomFieldsTrait
 {

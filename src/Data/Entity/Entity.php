@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace TheCodeBunny\ShopwareApi\Data\Entity;
+namespace Thecodebunny\ShopwareApi\Data\Entity;
 
-use TheCodeBunny\ShopwareApi\Data\Struct;
+use Thecodebunny\ShopwareApi\Data\Struct;
 
 class Entity extends Struct
 {

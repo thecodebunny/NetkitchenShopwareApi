@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace TheCodeBunny\ShopwareApi\Service\Struct;
+namespace Thecodebunny\ShopwareApi\Service\Struct;
 
-use TheCodeBunny\ShopwareApi\Data\Collection;
+use Thecodebunny\ShopwareApi\Data\Collection;
 
 class NotificationCollection extends Collection
 {

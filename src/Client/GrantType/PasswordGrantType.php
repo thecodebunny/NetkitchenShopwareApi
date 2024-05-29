@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace TheCodeBunny\ShopwareApi\Client\GrantType;
+namespace Thecodebunny\ShopwareApi\Client\GrantType;
 
 class PasswordGrantType extends GrantType
 {

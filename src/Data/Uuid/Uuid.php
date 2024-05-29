@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace TheCodeBunny\ShopwareApi\Data\Uuid;
+namespace Thecodebunny\ShopwareApi\Data\Uuid;
 
-use TheCodeBunny\ShopwareApi\Data\Uuid\Exception\InvalidUuidException;
-use TheCodeBunny\ShopwareApi\Data\Uuid\Exception\InvalidUuidLengthException;
+use Thecodebunny\ShopwareApi\Data\Uuid\Exception\InvalidUuidException;
+use Thecodebunny\ShopwareApi\Data\Uuid\Exception\InvalidUuidLengthException;
 
 class Uuid
 {

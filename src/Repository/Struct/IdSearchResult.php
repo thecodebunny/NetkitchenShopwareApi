@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace TheCodeBunny\ShopwareApi\Repository\Struct;
+namespace Thecodebunny\ShopwareApi\Repository\Struct;
 
-use TheCodeBunny\ShopwareApi\Data\Context;
-use TheCodeBunny\ShopwareApi\Data\Criteria;
-use TheCodeBunny\ShopwareApi\Data\Utils\StringFormatter;
+use Thecodebunny\ShopwareApi\Data\Context;
+use Thecodebunny\ShopwareApi\Data\Criteria;
+use Thecodebunny\ShopwareApi\Data\Utils\StringFormatter;
 
 class IdSearchResult
 {

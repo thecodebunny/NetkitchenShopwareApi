@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace TheCodeBunny\ShopwareApi\Data\Response;
+namespace Thecodebunny\ShopwareApi\Data\Response;
 
 class NotificationResponse extends ActionButtonResponse
 {

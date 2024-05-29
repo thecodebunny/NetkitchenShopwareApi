@@ -1,7 +1,7 @@
 <?php declare(strict_types=1);
 
 
-namespace TheCodeBunny\ShopwareApi\Service;
+namespace Thecodebunny\ShopwareApi\Service;
 
 class ApiResponse
 {

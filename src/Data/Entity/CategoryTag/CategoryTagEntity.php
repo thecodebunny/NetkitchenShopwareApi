@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\CategoryTag;
+namespace Thecodebunny\ShopwareApi\Data\Entity\CategoryTag;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\Category\CategoryEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\Tag\TagEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\Category\CategoryEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\Tag\TagEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

@@ -1,20 +1,20 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\Order;
+namespace Thecodebunny\ShopwareApi\Data\Entity\Order;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\StateMachineState\StateMachineStateEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\OrderCustomer\OrderCustomerEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\Currency\CurrencyEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\Language\LanguageEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\SalesChannel\SalesChannelEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\OrderAddress\OrderAddressCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\OrderAddress\OrderAddressEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\OrderDelivery\OrderDeliveryCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\OrderLineItem\OrderLineItemCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\OrderTransaction\OrderTransactionCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Document\DocumentCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Tag\TagCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\User\UserEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\StateMachineState\StateMachineStateEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\OrderCustomer\OrderCustomerEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\Currency\CurrencyEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\Language\LanguageEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\SalesChannel\SalesChannelEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\OrderAddress\OrderAddressCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\OrderAddress\OrderAddressEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\OrderDelivery\OrderDeliveryCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\OrderLineItem\OrderLineItemCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\OrderTransaction\OrderTransactionCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Document\DocumentCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Tag\TagCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\User\UserEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

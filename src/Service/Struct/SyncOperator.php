@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace TheCodeBunny\ShopwareApi\Service\Struct;
+namespace Thecodebunny\ShopwareApi\Service\Struct;
 
-use TheCodeBunny\ShopwareApi\Data\ParseAware;
-use TheCodeBunny\ShopwareApi\Data\Struct;
+use Thecodebunny\ShopwareApi\Data\ParseAware;
+use Thecodebunny\ShopwareApi\Data\Struct;
 
 class SyncOperator extends Struct implements ParseAware
 {

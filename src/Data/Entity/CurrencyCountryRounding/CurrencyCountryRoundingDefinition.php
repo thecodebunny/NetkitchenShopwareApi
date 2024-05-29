@@ -1,12 +1,12 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\CurrencyCountryRounding;
+namespace Thecodebunny\ShopwareApi\Data\Entity\CurrencyCountryRounding;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\EntityDefinition;
-use TheCodeBunny\ShopwareApi\Data\Schema\PropertyCollection;
-use TheCodeBunny\ShopwareApi\Data\Schema\FlagCollection;
-use TheCodeBunny\ShopwareApi\Data\Schema\Property;
-use TheCodeBunny\ShopwareApi\Data\Schema\Flag;
-use TheCodeBunny\ShopwareApi\Data\Schema\Schema;
+use Thecodebunny\ShopwareApi\Data\Entity\EntityDefinition;
+use Thecodebunny\ShopwareApi\Data\Schema\PropertyCollection;
+use Thecodebunny\ShopwareApi\Data\Schema\FlagCollection;
+use Thecodebunny\ShopwareApi\Data\Schema\Property;
+use Thecodebunny\ShopwareApi\Data\Schema\Flag;
+use Thecodebunny\ShopwareApi\Data\Schema\Schema;
 
 /**
  * Shopware Definition Mapping Class

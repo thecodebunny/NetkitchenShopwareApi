@@ -5,15 +5,15 @@ namespace Vin\ShopwareSdkTest\Data\Response;
 
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\ResponseInterface;
-use TheCodeBunny\ShopwareApi\Data\Response\ActionButtonResponse;
-use TheCodeBunny\ShopwareApi\Data\Response\EmptyResponse;
-use TheCodeBunny\ShopwareApi\Data\Response\NotificationResponse;
-use TheCodeBunny\ShopwareApi\Data\Response\OpenModalResponse;
-use TheCodeBunny\ShopwareApi\Data\Response\OpenNewTabResponse;
-use TheCodeBunny\ShopwareApi\Data\Response\ReloadDataResponse;
+use Thecodebunny\ShopwareApi\Data\Response\ActionButtonResponse;
+use Thecodebunny\ShopwareApi\Data\Response\EmptyResponse;
+use Thecodebunny\ShopwareApi\Data\Response\NotificationResponse;
+use Thecodebunny\ShopwareApi\Data\Response\OpenModalResponse;
+use Thecodebunny\ShopwareApi\Data\Response\OpenNewTabResponse;
+use Thecodebunny\ShopwareApi\Data\Response\ReloadDataResponse;
 
 /**
- * @covers \TheCodeBunny\ShopwareApi\Data\Response\ActionButtonResponse
+ * @covers \Thecodebunny\ShopwareApi\Data\Response\ActionButtonResponse
  */
 class ActionButtonResponseTest extends TestCase
 {

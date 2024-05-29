@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\PromotionDiscountPrices;
+namespace Thecodebunny\ShopwareApi\Data\Entity\PromotionDiscountPrices;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\PromotionDiscount\PromotionDiscountEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\Currency\CurrencyEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\PromotionDiscount\PromotionDiscountEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\Currency\CurrencyEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

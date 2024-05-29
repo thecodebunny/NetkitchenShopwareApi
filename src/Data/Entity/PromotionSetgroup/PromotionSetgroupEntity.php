@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\PromotionSetgroup;
+namespace Thecodebunny\ShopwareApi\Data\Entity\PromotionSetgroup;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\Promotion\PromotionEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\Rule\RuleCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\Promotion\PromotionEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\Rule\RuleCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

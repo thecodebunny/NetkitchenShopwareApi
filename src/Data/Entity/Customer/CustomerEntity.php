@@ -1,21 +1,21 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\Customer;
+namespace Thecodebunny\ShopwareApi\Data\Entity\Customer;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\Language\LanguageEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\PaymentMethod\PaymentMethodEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\CustomerAddress\CustomerAddressEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\Salutation\SalutationEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\CustomerAddress\CustomerAddressCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\OrderCustomer\OrderCustomerCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Tag\TagCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Promotion\PromotionCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\ProductReview\ProductReviewCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\CustomerRecovery\CustomerRecoveryEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\CustomerGroup\CustomerGroupEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\SalesChannel\SalesChannelEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\CustomerWishlist\CustomerWishlistCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\User\UserEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\Language\LanguageEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\PaymentMethod\PaymentMethodEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\CustomerAddress\CustomerAddressEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\Salutation\SalutationEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\CustomerAddress\CustomerAddressCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\OrderCustomer\OrderCustomerCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Tag\TagCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Promotion\PromotionCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\ProductReview\ProductReviewCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\CustomerRecovery\CustomerRecoveryEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\CustomerGroup\CustomerGroupEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\SalesChannel\SalesChannelEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\CustomerWishlist\CustomerWishlistCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\User\UserEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

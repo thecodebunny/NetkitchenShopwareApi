@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace TheCodeBunny\ShopwareApi\Service;
+namespace Thecodebunny\ShopwareApi\Service;
 
 use GuzzleHttp\Exception\BadResponseException;
-use TheCodeBunny\ShopwareApi\Data\Mail\Mail;
-use TheCodeBunny\ShopwareApi\Exception\ShopwareResponseException;
+use Thecodebunny\ShopwareApi\Data\Mail\Mail;
+use Thecodebunny\ShopwareApi\Exception\ShopwareResponseException;
 
 class MailSendService extends ApiService
 {

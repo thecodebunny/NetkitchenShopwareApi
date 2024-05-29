@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\CustomerWishlistProduct;
+namespace Thecodebunny\ShopwareApi\Data\Entity\CustomerWishlistProduct;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\CustomerWishlist\CustomerWishlistEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\Product\ProductEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\CustomerWishlist\CustomerWishlistEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\Product\ProductEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
 
-namespace TheCodeBunny\ShopwareApi\Service;
+namespace Thecodebunny\ShopwareApi\Service;
 
 use GuzzleHttp\Exception\BadResponseException;
-use TheCodeBunny\ShopwareApi\Exception\ShopwareResponseException;
-use TheCodeBunny\ShopwareApi\Service\Struct\Notification;
-use TheCodeBunny\ShopwareApi\Service\Struct\NotificationCollection;
+use Thecodebunny\ShopwareApi\Exception\ShopwareResponseException;
+use Thecodebunny\ShopwareApi\Service\Struct\Notification;
+use Thecodebunny\ShopwareApi\Service\Struct\NotificationCollection;
 
 class NotificationService extends ApiService
 {

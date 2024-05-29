@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\Snippet;
+namespace Thecodebunny\ShopwareApi\Data\Entity\Snippet;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\SnippetSet\SnippetSetEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\SnippetSet\SnippetSetEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

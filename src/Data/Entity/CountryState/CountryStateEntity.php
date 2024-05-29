@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\CountryState;
+namespace Thecodebunny\ShopwareApi\Data\Entity\CountryState;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\Country\CountryEntity;
-use TheCodeBunny\ShopwareApi\Data\Entity\CountryStateTranslation\CountryStateTranslationCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\CustomerAddress\CustomerAddressCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\OrderAddress\OrderAddressCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\Country\CountryEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\CountryStateTranslation\CountryStateTranslationCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\CustomerAddress\CustomerAddressCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\OrderAddress\OrderAddressCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

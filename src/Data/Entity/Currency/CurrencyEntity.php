@@ -1,14 +1,14 @@
 <?php declare(strict_types=1);
-namespace TheCodeBunny\ShopwareApi\Data\Entity\Currency;
+namespace Thecodebunny\ShopwareApi\Data\Entity\Currency;
 
-use TheCodeBunny\ShopwareApi\Data\Entity\CurrencyTranslation\CurrencyTranslationCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Order\OrderCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\SalesChannel\SalesChannelCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\SalesChannelDomain\SalesChannelDomainCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\PromotionDiscountPrices\PromotionDiscountPricesCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\ProductExport\ProductExportCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\CurrencyCountryRounding\CurrencyCountryRoundingCollection;
-use TheCodeBunny\ShopwareApi\Data\Entity\Entity;
+use Thecodebunny\ShopwareApi\Data\Entity\CurrencyTranslation\CurrencyTranslationCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Order\OrderCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\SalesChannel\SalesChannelCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\SalesChannelDomain\SalesChannelDomainCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\PromotionDiscountPrices\PromotionDiscountPricesCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\ProductExport\ProductExportCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\CurrencyCountryRounding\CurrencyCountryRoundingCollection;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 
 /**
  * Shopware Entity Mapping Class

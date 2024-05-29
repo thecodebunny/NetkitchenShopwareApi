@@ -4,20 +4,20 @@ declare(strict_types=1);
 
 namespace Vin\ShopwareSdkTest;
 
-use TheCodeBunny\ShopwareApi\Client\Client;
+use Thecodebunny\ShopwareApi\Client\Client;
 use GuzzleHttp\Exception\BadResponseException;
 use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
 use PHPUnit\Framework\TestCase;
-use TheCodeBunny\ShopwareApi\Client\AdminAuthenticator;
-use TheCodeBunny\ShopwareApi\Client\GrantType\GrantType;
-use TheCodeBunny\ShopwareApi\Data\AccessToken;
-use TheCodeBunny\ShopwareApi\Exception\AuthorizationFailedException;
+use Thecodebunny\ShopwareApi\Client\AdminAuthenticator;
+use Thecodebunny\ShopwareApi\Client\GrantType\GrantType;
+use Thecodebunny\ShopwareApi\Data\AccessToken;
+use Thecodebunny\ShopwareApi\Exception\AuthorizationFailedException;
 
 /**
- * @covers \TheCodeBunny\ShopwareApi\Client\AdminAuthenticator
+ * @covers \Thecodebunny\ShopwareApi\Client\AdminAuthenticator
  */
 class AdminAuthenticatorTest extends TestCase
 {
