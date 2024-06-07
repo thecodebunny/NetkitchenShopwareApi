@@ -24,15 +24,15 @@ interface RepositoryInterface
 
     public function search(Criteria $criteria, Context $context): EntitySearchResult;
 
-    public function update(array $data, Context $context): void;
+    public function update(array $data, Context $context);
 
-    public function create(array $data, Context $context): void;
+    public function create(array $data, Context $context);
 
     public function clone(string $id, Context $context, ?CloneBehaviour $cloneBehaviour = null): string;
 
     public function createNew(array $data): Entity;
 
-    public function delete(string $id, Context $context): void;
+    public function delete(string $id, Context $context);
 
     public function syncDeleted(array $ids, Context $context): ApiResponse;
 

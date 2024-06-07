@@ -34,6 +34,8 @@ class EntityRepository implements RepositoryInterface
 
     private const VERSION_API_ENDPOINT = '/api/_action/version';
 
+    private const BULK_API_ENDPOINT = '/_action/sync';
+
     private const SEARCH_IDS_API_ENDPOINT = '/api/search-ids';
 
     public string $entityName;
@@ -89,6 +91,30 @@ class EntityRepository implements RepositoryInterface
         return new EntitySearchResult($this->entityName, $meta, $entities, $aggregations, $criteria, $context);
     }
 
+    public function searchPickware(Criteria $criteria, Context $context, string $pickwareEndpoint): EntitySearchResult
+    {
+        try {
+            $response = $this->httpClient->post($this->getSearchPickwareApiUrl($context->apiEndpoint, $pickwareEndpoint), [
+                'headers' => $this->buildHeaders($context),
+                'body' => json_encode($criteria->parse())
+            ])->getBody()->getContents();
+        } catch (BadResponseException $exception) {
+            $message = $exception->getResponse()->getBody()->getContents();
+
+            throw new ShopwareSearchResponseException($message, $exception->getResponse()->getStatusCode(), $criteria, $exception);
+        }
+
+        $response = $this->decodeResponse($response);
+
+        $aggregations = new AggregationResultCollection($response['aggregations']);
+
+        $entities = $this->hydrator->hydrateSearchResult($response, $context, $this->entityName);
+
+        $meta = new SearchResultMeta($response['meta']['total'], $response['meta']['totalCountMode']);
+
+        return new EntitySearchResult($this->entityName, $meta, $entities, $aggregations, $criteria, $context);
+    }
+
     public function searchIds(Criteria $criteria, Context $context): IdSearchResult
     {
         try {
@@ -110,50 +136,59 @@ class EntityRepository implements RepositoryInterface
     /**
      * Create an entity
      */
-    public function create(array $data, Context $context): void
+    public function create(array $data, Context $context)
     {
         try {
-            $this->httpClient->post($this->getEntityEndpoint($context->apiEndpoint), [
+            return $this->httpClient->post($this->getEntityEndpoint($context->apiEndpoint), [
                 'headers' => $this->buildHeaders($context),
                 'body' => json_encode($data)
             ])->getBody()->getContents();
         } catch (BadResponseException $exception) {
-            $message = $exception->getResponse()->getBody()->getContents();
-            throw new ShopwareResponseException($message, $exception->getResponse()->getStatusCode(), $exception);
+            return $exception->getResponse()->getBody()->getContents();
         }
     }
 
     /**
      * Update an entity
      */
-    public function update(array $data, Context $context): void
+    public function update(array $data, Context $context)
     {
         if (empty($data['id'])) {
-            throw new \InvalidArgumentException('Id is not provided for update payload');
+            return new \InvalidArgumentException('Id is not provided for update payload');
         }
 
         $id = $data['id'];
 
         try {
-            $this->httpClient->patch($this->getEntityEndpoint($context->apiEndpoint, $id), [
+            return $this->httpClient->patch($this->getEntityEndpoint($context->apiEndpoint, $id), [
                 'headers' => $this->buildHeaders($context),
                 'body' => json_encode($data)
             ])->getBody()->getContents();
         } catch (BadResponseException $exception) {
-            $message = $exception->getResponse()->getBody()->getContents();
-            throw new ShopwareResponseException($message, $exception->getResponse()->getStatusCode(), $exception);
+            return $exception->getResponse()->getBody()->getContents();
         }
     }
 
-    public function delete(string $id, Context $context): void
+    public function updateBulk(array $data, Context $context)
+    {
+        try {
+            return $this->httpClient->post($this->getBulkApiEndpoint($context->apiEndpoint), [
+                'headers' => $this->buildHeaders($context),
+                'body' => json_encode($data)
+            ])->getBody();
+        } catch (BadResponseException $exception) {
+            return $exception->getResponse()->getBody()->getContents();
+        }
+    }
+
+    public function delete(string $id, Context $context)
     {
         try {
             $this->httpClient->delete($this->getEntityEndpoint($context->apiEndpoint, $id), [
                 'headers' => $this->buildHeaders($context),
             ])->getBody()->getContents();
         } catch (BadResponseException $exception) {
-            $message = $exception->getResponse()->getBody()->getContents();
-            throw new ShopwareResponseException($message, $exception->getResponse()->getStatusCode(), $exception);
+            return $exception->getResponse()->getBody();
         }
     }
 
@@ -270,9 +305,16 @@ class EntityRepository implements RepositoryInterface
         return $entity;
     }
 
-    protected function getEntityEndpoint(string $endpoint, ?string $entityId = null): string
+    protected function getEntityEndpoint(string $endpoint, ?string $entityId = null):
+    string
     {
-        return sprintf('%s/api%s/%s', $endpoint, $this->route, $entityId ?? '');
+        return sprintf('%s/api%s/%s?_response=detail', $endpoint, $this->route, $entityId ?? '');
+    }
+
+    protected function getBulkApiEndpoint(string $endpoint, ?string $path = null):
+    string
+    {
+        return sprintf('%s/api%s?response=detail', $endpoint, self::BULK_API_ENDPOINT, $path);
     }
 
     protected function getSearchApiUrl(string $endpoint, ?string $path = null): string
@@ -280,9 +322,14 @@ class EntityRepository implements RepositoryInterface
         return sprintf('%s%s%s%s', $endpoint, self::SEARCH_API_ENDPOINT, $this->route, $path ?? '');
     }
 
+    protected function getSearchPickwareApiUrl(string $endpoint, string $pickwareEndpoint): string
+    {
+        return sprintf('%s%s%s',  $endpoint, self::SEARCH_API_ENDPOINT, $pickwareEndpoint);
+    }
+
     protected function getCloneEndpoint(string $endpoint, string $entityId): string
     {
-        return sprintf('%s/api/_action/clone%s/%s', $endpoint, $this->route, $entityId);
+        return sprintf('%s/api/_action/clone%s/%s?response=detail', $endpoint, $this->route, $entityId);
     }
 
     protected function getMergeVersionEndpoint(string $endpoint, string $versionId): string
@@ -312,6 +359,8 @@ class EntityRepository implements RepositoryInterface
         $headers = array_merge([
             'Accept' => 'application/vnd.api+json',
             'Content-Type' => 'application/json',
+            'Content-Type' => 'application/json',
+            '_response' => 'detail',
             'Authorization' => $accessToken->tokenType . ' ' . $accessToken->accessToken,
             'sw-language-id' => $context->languageId,
             'sw-currency-id' => $context->currencyId,

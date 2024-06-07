@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="109b5a88-bd77-43d0-bcc7-768fffbefa84" name="Changes" comment="Package Name Change">
-      <change beforePath="$PROJECT_DIR$/.idea/NetkitchenShopwareApi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NetkitchenShopwareApi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+    <list default="true" id="109b5a88-bd77-43d0-bcc7-768fffbefa84" name="Changes" comment="Added compatibility for custom Entity with pickware endpoints">
+      <change afterPath="$PROJECT_DIR$/src/Data/Entity/Warehouse/WarehouseCollection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Data/Entity/Warehouse/WarehouseDefinition.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Data/Entity/Warehouse/WarehouseEntity.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/EntityRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/EntityRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/RepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/RepositoryInterface.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +56,12 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.google.cloudcode.ide_session_index": "20240529_0001",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "com.google.cloudcode.ide_session_index": "20240531_0000",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "/Users/admin/WORK/TCB Repositories/NetkitchenShopwareApi",
     "node.js.detected.package.eslint": "true",
@@ -79,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1716903978850</updated>
       <workItem from="1716903980048" duration="1842000" />
-      <workItem from="1716993137191" duration="704000" />
+      <workItem from="1716993137191" duration="13232000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Release">
       <option name="closed" value="true" />
@@ -113,7 +123,31 @@
       <option name="project" value="LOCAL" />
       <updated>1716993717449</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Package Name Change">
+      <option name="closed" value="true" />
+      <created>1716993862268</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716993862268</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Package Name Change">
+      <option name="closed" value="true" />
+      <created>1716993869236</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716993869236</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Package Name Change">
+      <option name="closed" value="true" />
+      <created>1716994208242</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716994208242</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +167,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Release" />
     <MESSAGE value="Package Name Change" />
-    <option name="LAST_COMMIT_MESSAGE" value="Package Name Change" />
+    <MESSAGE value="Added compatibility for custom Entity with pickware endpoints" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added compatibility for custom Entity with pickware endpoints" />
   </component>
 </project>
