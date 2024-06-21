@@ -16,15 +16,13 @@ class Context
 
     public bool $inheritance = true;
 
-    public AccessToken $accessToken;
+    public string $accessToken;
 
     public string $apiEndpoint;
-    
+
     public array $additionalHeaders;
 
     public function __construct(
-        string $apiEndpoint,
-        AccessToken $accessToken,
         string $languageId = Defaults::LANGUAGE_SYSTEM,
         string $currencyId = Defaults::CURRENCY,
         string $versionId = Defaults::LIVE_VERSION,
@@ -37,8 +35,8 @@ class Context
         $this->versionId = $versionId;
         $this->compatibility = $compatibility;
         $this->inheritance = $inheritance;
-        $this->accessToken = $accessToken;
-        $this->apiEndpoint = $this->removeLastSlashes($apiEndpoint);
+        $this->accessToken = config('SHOPWARE_SIX_ACCESS_TOKEN');
+        $this->apiEndpoint = $this->removeLastSlashes(config('SHOPWARE_SIX_SHOP_URL'));
         $this->additionalHeaders = $additionalHeaders;
     }
 }

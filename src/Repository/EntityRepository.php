@@ -3,7 +3,9 @@
 namespace Thecodebunny\ShopwareApi\Repository;
 
 use GuzzleHttp\Exception\BadResponseException;
+use Thecodebunny\ShopwareApi\Client\AdminAuthenticator;
 use Thecodebunny\ShopwareApi\Client\CreateClientTrait;
+use Thecodebunny\ShopwareApi\Client\GrantType\ClientCredentialsGrantType;
 use Thecodebunny\ShopwareApi\Data\Context;
 use Thecodebunny\ShopwareApi\Data\Criteria;
 use Thecodebunny\ShopwareApi\Data\Entity\Entity;
@@ -46,7 +48,8 @@ class EntityRepository implements RepositoryInterface
 
     private EntityDefinition $definition;
 
-    public function __construct(string $entityName, EntityDefinition $definition, string $route, ?HydratorInterface $hydrator = null)
+    public function __construct(string $entityName, EntityDefinition $definition, string $route, ?HydratorInterface
+    $hydrator = null)
     {
         $this->entityName = $entityName;
         $this->httpClient = $this->httpClient ?? $this->createHttpClient();
@@ -69,16 +72,24 @@ class EntityRepository implements RepositoryInterface
 
     public function search(Criteria $criteria, Context $context): EntitySearchResult
     {
-        try {
-            $response = $this->httpClient->post($this->getSearchApiUrl($context->apiEndpoint), [
-                'headers' => $this->buildHeaders($context),
-                'body' => json_encode($criteria->parse())
-            ])->getBody()->getContents();
-        } catch (BadResponseException $exception) {
-            $message = $exception->getResponse()->getBody()->getContents();
-
-            throw new ShopwareSearchResponseException($message, $exception->getResponse()->getStatusCode(), $criteria, $exception);
-        }
+            try {
+                $response = $this->httpClient->post($this->getSearchApiUrl($context->apiEndpoint), [
+                    'headers' => $this->buildHeaders($context),
+                    'body' => json_encode($criteria->parse())
+                ])->getBody()->getContents();
+            } catch (BadResponseException $exception) {
+                $response = $exception->getResponse()->getBody()->getContents();
+                if (($response->errors)) {
+                    $grantType = new ClientCredentialsGrantType(config('SHOPWARE_SIX_ACCESS_KEY_ID'),
+                        config('SHOPWARE_SIX_SECRET_ACCESS_KEY'));
+                    $adminClient = new AdminAuthenticator($grantType, config('SHOPWARE_SIX_SHOP_URL'));
+                    $accessToken = $adminClient->fetchAccessToken();
+                    $this->search($criteria, new Context(config('SHOPWARE_SIX_SHOP_URL'), $accessToken->accessToken));
+                }
+                //return $response;
+                //sleep(5);
+                //return new ShopwareSearchResponseException($message, $exception->getResponse()->getStatusCode(), $criteria, $exception);
+            }
 
         $response = $this->decodeResponse($response);
 
@@ -100,8 +111,8 @@ class EntityRepository implements RepositoryInterface
             ])->getBody()->getContents();
         } catch (BadResponseException $exception) {
             $message = $exception->getResponse()->getBody()->getContents();
-
-            throw new ShopwareSearchResponseException($message, $exception->getResponse()->getStatusCode(), $criteria, $exception);
+            dump(json_decode($message));
+            //throw new ShopwareSearchResponseException($message, $exception->getResponse()->getStatusCode(), $criteria, $exception);
         }
 
         $response = $this->decodeResponse($response);
@@ -125,7 +136,7 @@ class EntityRepository implements RepositoryInterface
         } catch (BadResponseException $exception) {
             $message = $exception->getResponse()->getBody()->getContents();
 
-            throw new ShopwareSearchResponseException($message, $exception->getResponse()->getStatusCode(), $criteria, $exception);
+            //throw new ShopwareSearchResponseException($message, $exception->getResponse()->getStatusCode(), $criteria, $exception);
         }
 
         $response = $this->decodeResponse($response);
@@ -361,7 +372,7 @@ class EntityRepository implements RepositoryInterface
             'Content-Type' => 'application/json',
             'Content-Type' => 'application/json',
             '_response' => 'detail',
-            'Authorization' => $accessToken->tokenType . ' ' . $accessToken->accessToken,
+            'Authorization' => 'Bearer ' . $accessToken,
             'sw-language-id' => $context->languageId,
             'sw-currency-id' => $context->currencyId,
             'sw-version-id' => $context->versionId,

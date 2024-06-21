@@ -25,4 +25,5 @@ final class Defaults
     public const STORAGE_DATE_FORMAT = 'Y-m-d';
 
     public const CMS_PRODUCT_DETAIL_PAGE = '7a6d253a67204037966f42b0119704d5';
+
 }

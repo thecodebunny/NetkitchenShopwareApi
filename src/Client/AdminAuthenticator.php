@@ -48,7 +48,7 @@ class AdminAuthenticator
         $this->endpoint = $this->removeLastSlashes($endpoint);
     }
 
-    public function fetchAccessToken(): AccessToken
+    public function fetchAccessToken()
     {
         $formParams = $this->buildFormParams();
 
@@ -58,7 +58,7 @@ class AdminAuthenticator
                 'form_params' => $formParams
             ])->getBody()->getContents();
         } catch (BadResponseException $exception) {
-            throw new AuthorizationFailedException(
+            return new AuthorizationFailedException(
                 $exception->getResponse()->getBody()->getContents(),
                 $exception->getCode(),
                 $exception

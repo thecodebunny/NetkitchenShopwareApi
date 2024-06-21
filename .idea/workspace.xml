@@ -5,13 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="109b5a88-bd77-43d0-bcc7-768fffbefa84" name="Changes" comment="Added compatibility for custom Entity with pickware endpoints">
-      <change afterPath="$PROJECT_DIR$/src/Data/Entity/Warehouse/WarehouseCollection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Data/Entity/Warehouse/WarehouseDefinition.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Data/Entity/Warehouse/WarehouseEntity.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpcs.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/phpcs.xml.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/script/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/script/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/AdminAuthenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/AdminAuthenticator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/Association.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Association.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/Context.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Context.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/Criteria.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Criteria.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/Defaults.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Defaults.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/Entity/ProductManufacturerTranslation/ProductManufacturerTranslationCollection.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Entity/ProductManufacturerTranslation/ProductManufacturerTranslationCollection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/Entity/ProductManufacturerTranslation/ProductManufacturerTranslationDefinition.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Entity/ProductManufacturerTranslation/ProductManufacturerTranslationDefinition.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/Entity/ProductManufacturerTranslation/ProductManufacturerTranslationEntity.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Entity/ProductManufacturerTranslation/ProductManufacturerTranslationEntity.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/Entity/Warehouse/WarehouseCollection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/Entity/Warehouse/WarehouseDefinition.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/Entity/Warehouse/WarehouseEntity.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/FieldSorting.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/FieldSorting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/Filter/ContainsFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Filter/ContainsFilter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/Filter/EqualsAnyFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Filter/EqualsAnyFilter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/Filter/EqualsFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Filter/EqualsFilter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/Filter/Filter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Filter/Filter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/Filter/MultiFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Filter/MultiFilter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/Filter/NotFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Filter/NotFilter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/Filter/PrefixFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Filter/PrefixFilter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/Filter/RangeFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Filter/RangeFilter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/Filter/SuffixFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Filter/SuffixFilter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/ParseAware.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/ParseAware.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/RepositoryFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/RepositoryFactory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Repository/EntityRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/EntityRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/RepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/RepositoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/ApiService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/ApiService.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +70,16 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2h6A6chHSvYSazKWzfmqUmQ5Ngo" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
@@ -61,7 +87,7 @@
     "WebServerToolWindowPanel.toolwindow.show.date": "false",
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
-    "com.google.cloudcode.ide_session_index": "20240531_0000",
+    "com.google.cloudcode.ide_session_index": "20240621_0000",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "/Users/admin/WORK/TCB Repositories/NetkitchenShopwareApi",
     "node.js.detected.package.eslint": "true",
@@ -76,7 +102,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-php-predefined-ba97393d7c68-c76157a7178b-com.jetbrains.php.sharedIndexes-PS-241.15989.102" />
+        <option value="bundled-php-predefined-ba97393d7c68-48a1a656d44e-com.jetbrains.php.sharedIndexes-PS-241.17890.8" />
       </set>
     </attachedChunks>
   </component>
@@ -89,7 +115,12 @@
       <option name="presentableId" value="Default" />
       <updated>1716903978850</updated>
       <workItem from="1716903980048" duration="1842000" />
-      <workItem from="1716993137191" duration="13232000" />
+      <workItem from="1716993137191" duration="16062000" />
+      <workItem from="1718029625528" duration="1799000" />
+      <workItem from="1718351199832" duration="590000" />
+      <workItem from="1718352428345" duration="591000" />
+      <workItem from="1718356493021" duration="592000" />
+      <workItem from="1718960560165" duration="136000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Release">
       <option name="closed" value="true" />
@@ -147,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716994208242</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added compatibility for custom Entity with pickware endpoints">
+      <option name="closed" value="true" />
+      <created>1717769604258</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717769604258</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +204,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial Release" />
     <MESSAGE value="Package Name Change" />
     <MESSAGE value="Added compatibility for custom Entity with pickware endpoints" />

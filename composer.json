@@ -3,11 +3,12 @@
     "description": "A PHP SDK for Shopware 6 Platform",
     "type": "library",
     "license": "MIT",
-    "version": "2.0.0",
+    "version": "3.0.0",
     "authors": [
         {
             "name": "Netkitchen GmbH",
-            "email": "hv@netkitchen.de"
+            "email": "hv@netkitchen.de",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "stable",
@@ -43,5 +44,18 @@
         "fix-style": "phpcbf src",
         "lint": "vendor/bin/ecs check src && phpcs src",
         "lint-fix": "vendor/bin/ecs check src --fix && phpcbf src"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Thecodebunny\\ShopwareApi\\ShopwareApiServiceProvider"
+            ],
+            "aliases": {
+                "ShopwareApi": "Thecodebunny\\ShopwareApi\\ShopwareApiFacade"
+            }
+        }
     }
 }
