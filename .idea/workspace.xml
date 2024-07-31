@@ -4,47 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="109b5a88-bd77-43d0-bcc7-768fffbefa84" name="Changes" comment="Added compatibility for custom Entity with pickware endpoints">
+    <list default="true" id="109b5a88-bd77-43d0-bcc7-768fffbefa84" name="Changes" comment="Converted to Laravel Package">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpcs.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/phpcs.xml.dist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/script/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/script/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/AdminAuthenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/AdminAuthenticator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/Association.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Association.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/shopwaresix.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/shopwaresix.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Data/Context.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Context.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/Criteria.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Criteria.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/Defaults.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Defaults.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/Entity/ProductManufacturerTranslation/ProductManufacturerTranslationCollection.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Entity/ProductManufacturerTranslation/ProductManufacturerTranslationCollection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/Entity/ProductManufacturerTranslation/ProductManufacturerTranslationDefinition.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Entity/ProductManufacturerTranslation/ProductManufacturerTranslationDefinition.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/Entity/ProductManufacturerTranslation/ProductManufacturerTranslationEntity.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Entity/ProductManufacturerTranslation/ProductManufacturerTranslationEntity.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/Entity/Warehouse/WarehouseCollection.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/Entity/Warehouse/WarehouseDefinition.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/Entity/Warehouse/WarehouseEntity.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/FieldSorting.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/FieldSorting.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/Filter/ContainsFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Filter/ContainsFilter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/Filter/EqualsAnyFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Filter/EqualsAnyFilter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/Filter/EqualsFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Filter/EqualsFilter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/Filter/Filter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Filter/Filter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/Filter/MultiFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Filter/MultiFilter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/Filter/NotFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Filter/NotFilter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/Filter/PrefixFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Filter/PrefixFilter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/Filter/RangeFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Filter/RangeFilter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/Filter/SuffixFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Filter/SuffixFilter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/ParseAware.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/ParseAware.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Factory/RepositoryFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/RepositoryFactory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Repository/EntityRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/EntityRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service/ApiService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/ApiService.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="ComposerConfigs">
-    <option name="configs">
-      <option value="$PROJECT_DIR$/script/composer.json" />
-    </option>
   </component>
   <component name="ComposerSettings" notifyAboutMissingVendor="false" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
@@ -99,6 +70,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -120,7 +96,7 @@
       <workItem from="1718351199832" duration="590000" />
       <workItem from="1718352428345" duration="591000" />
       <workItem from="1718356493021" duration="592000" />
-      <workItem from="1718960560165" duration="136000" />
+      <workItem from="1718960560165" duration="1961000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Release">
       <option name="closed" value="true" />
@@ -186,7 +162,23 @@
       <option name="project" value="LOCAL" />
       <updated>1717769604258</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Converted to Laravel Package">
+      <option name="closed" value="true" />
+      <created>1718960733595</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718960733595</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Converted to Laravel Package">
+      <option name="closed" value="true" />
+      <created>1718960747254</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1718960747254</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +200,7 @@
     <MESSAGE value="Initial Release" />
     <MESSAGE value="Package Name Change" />
     <MESSAGE value="Added compatibility for custom Entity with pickware endpoints" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added compatibility for custom Entity with pickware endpoints" />
+    <MESSAGE value="Converted to Laravel Package" />
+    <option name="LAST_COMMIT_MESSAGE" value="Converted to Laravel Package" />
   </component>
 </project>

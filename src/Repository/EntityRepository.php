@@ -38,6 +38,8 @@ class EntityRepository implements RepositoryInterface
 
     private const BULK_API_ENDPOINT = '/_action/sync';
 
+	private const PICKWARE_API_ENDPOINT = '/api/_action/pickware-erp/stock/move';
+
     private const SEARCH_IDS_API_ENDPOINT = '/api/search-ids';
 
     public string $entityName;
@@ -78,17 +80,9 @@ class EntityRepository implements RepositoryInterface
                     'body' => json_encode($criteria->parse())
                 ])->getBody()->getContents();
             } catch (BadResponseException $exception) {
-                $response = $exception->getResponse()->getBody()->getContents();
-                if (($response->errors)) {
-                    $grantType = new ClientCredentialsGrantType(config('SHOPWARE_SIX_ACCESS_KEY_ID'),
-                        config('SHOPWARE_SIX_SECRET_ACCESS_KEY'));
-                    $adminClient = new AdminAuthenticator($grantType, config('SHOPWARE_SIX_SHOP_URL'));
-                    $accessToken = $adminClient->fetchAccessToken();
-                    $this->search($criteria, new Context(config('SHOPWARE_SIX_SHOP_URL'), $accessToken->accessToken));
-                }
-                //return $response;
-                //sleep(5);
-                //return new ShopwareSearchResponseException($message, $exception->getResponse()->getStatusCode(), $criteria, $exception);
+                $message = $exception->getResponse()->getBody()->getContents();
+                dump($exception);
+                throw new ShopwareSearchResponseException($message, $exception->getResponse()->getStatusCode(), $criteria, $exception);
             }
 
         $response = $this->decodeResponse($response);
@@ -112,7 +106,7 @@ class EntityRepository implements RepositoryInterface
         } catch (BadResponseException $exception) {
             $message = $exception->getResponse()->getBody()->getContents();
             dump(json_decode($message));
-            //throw new ShopwareSearchResponseException($message, $exception->getResponse()->getStatusCode(), $criteria, $exception);
+            throw new ShopwareSearchResponseException($message, $exception->getResponse()->getStatusCode(), $criteria, $exception);
         }
 
         $response = $this->decodeResponse($response);
@@ -136,7 +130,7 @@ class EntityRepository implements RepositoryInterface
         } catch (BadResponseException $exception) {
             $message = $exception->getResponse()->getBody()->getContents();
 
-            //throw new ShopwareSearchResponseException($message, $exception->getResponse()->getStatusCode(), $criteria, $exception);
+            throw new ShopwareSearchResponseException($message, $exception->getResponse()->getStatusCode(), $criteria, $exception);
         }
 
         $response = $this->decodeResponse($response);
@@ -150,12 +144,14 @@ class EntityRepository implements RepositoryInterface
     public function create(array $data, Context $context)
     {
         try {
-            return $this->httpClient->post($this->getEntityEndpoint($context->apiEndpoint), [
-                'headers' => $this->buildHeaders($context),
-                'body' => json_encode($data)
-            ])->getBody()->getContents();
+            return json_decode(
+					$this->httpClient->post($this->getEntityEndpoint($context->apiEndpoint), [
+					'headers' => $this->buildHeaders($context),
+					'body' => json_encode($data)
+				])->getBody()->getContents()
+			);
         } catch (BadResponseException $exception) {
-            return $exception->getResponse()->getBody()->getContents();
+            throw json_decode($exception->getResponse()->getBody()->getContents());
         }
     }
 
@@ -164,6 +160,7 @@ class EntityRepository implements RepositoryInterface
      */
     public function update(array $data, Context $context)
     {
+        //dump($data);
         if (empty($data['id'])) {
             return new \InvalidArgumentException('Id is not provided for update payload');
         }
@@ -191,6 +188,18 @@ class EntityRepository implements RepositoryInterface
             return $exception->getResponse()->getBody()->getContents();
         }
     }
+
+	public function movePickwareStock(array $data, Context $context)
+	{
+		try {
+			return $this->httpClient->post($this->getBulkApiEndpoint($context->apiEndpoint), [
+				'headers' => $this->buildHeaders($context),
+				'body' => json_encode($data)
+			])->getBody();
+		} catch (BadResponseException $exception) {
+			return $exception->getResponse()->getBody()->getContents();
+		}
+	}
 
     public function delete(string $id, Context $context)
     {
@@ -327,6 +336,12 @@ class EntityRepository implements RepositoryInterface
     {
         return sprintf('%s/api%s?response=detail', $endpoint, self::BULK_API_ENDPOINT, $path);
     }
+
+	protected function getPickwareApiEndpoint(string $endpoint, ?string $path = null):
+	string
+	{
+		return sprintf('%s/api%s?response=detail', $endpoint, self::PICKWARE_API_ENDPOINT, $path);
+	}
 
     protected function getSearchApiUrl(string $endpoint, ?string $path = null): string
     {

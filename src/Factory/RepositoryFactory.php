@@ -23,7 +23,7 @@ class RepositoryFactory
         return new EntityRepository($definition->getEntityName(), $definition, $route, HydratorFactory::create());
     }
 
-    public static function create(string $entity, $settings, ?string $route = null): RepositoryInterface
+    public static function create(string $entity, ?string $route = null): RepositoryInterface
     {
         if (!$route) {
             $route = sprintf('/%s', str_replace('_', '-', $entity));

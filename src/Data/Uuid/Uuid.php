@@ -52,7 +52,7 @@ class Uuid
         $uuid = bin2hex($bytes);
 
         if (!self::isValid($uuid)) {
-            throw new InvalidUuidException($uuid);
+            return '';
         }
 
         return $uuid;

@@ -21,7 +21,7 @@ class ShopwareApiServiceProvider extends ServiceProvider
 
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__.'/../config/config.php' => config_path('shopware-api.php'),
+                __DIR__.'/../config/shopwaresix.php' => config_path('shopware-api.php'),
             ], 'config');
 
             // Publishing the views.

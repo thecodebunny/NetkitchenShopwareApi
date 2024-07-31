@@ -3,6 +3,7 @@
 namespace Thecodebunny\ShopwareApi\Service;
 
 use GuzzleHttp\Exception\BadResponseException;
+use Illuminate\Support\Facades\Log;
 use Thecodebunny\ShopwareApi\Exception\ShopwareResponseException;
 
 /**
@@ -47,7 +48,7 @@ class MediaService extends ApiService
         $data = [
             'url' => $url,
         ];
-
+		Log::debug('Media Url from Media Service - ' .  $url);
         return $this->uploadMediaById($mediaId, 'application/json', $data, $extension, $fileName);
     }
 
