@@ -4,18 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="109b5a88-bd77-43d0-bcc7-768fffbefa84" name="Changes" comment="Converted to Laravel Package">
+    <list default="true" id="109b5a88-bd77-43d0-bcc7-768fffbefa84" name="Changes" comment="Added Pickware API Endpoint">
+      <change beforePath="$PROJECT_DIR$/.idea/NetkitchenShopwareApi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NetkitchenShopwareApi.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/shopwaresix.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/shopwaresix.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/Context.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Context.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Factory/RepositoryFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/RepositoryFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/EntityRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/EntityRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerConfigs">
+    <option name="configs">
+      <option value="$PROJECT_DIR$/script/composer.json" />
+    </option>
   </component>
   <component name="ComposerSettings" notifyAboutMissingVendor="false" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
@@ -58,7 +60,7 @@
     "WebServerToolWindowPanel.toolwindow.show.date": "false",
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
-    "com.google.cloudcode.ide_session_index": "20240621_0000",
+    "com.google.cloudcode.ide_session_index": "20240731_0000",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "/Users/admin/WORK/TCB Repositories/NetkitchenShopwareApi",
     "node.js.detected.package.eslint": "true",
@@ -78,7 +80,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-php-predefined-ba97393d7c68-48a1a656d44e-com.jetbrains.php.sharedIndexes-PS-241.17890.8" />
+        <option value="bundled-php-predefined-ba97393d7c68-48a1a656d44e-com.jetbrains.php.sharedIndexes-PS-241.18034.69" />
       </set>
     </attachedChunks>
   </component>
@@ -97,6 +99,7 @@
       <workItem from="1718352428345" duration="591000" />
       <workItem from="1718356493021" duration="592000" />
       <workItem from="1718960560165" duration="1961000" />
+      <workItem from="1722406157217" duration="2158000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Release">
       <option name="closed" value="true" />
@@ -178,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718960747254</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added Pickware API Endpoint">
+      <option name="closed" value="true" />
+      <created>1722406214942</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1722406214942</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +212,7 @@
     <MESSAGE value="Package Name Change" />
     <MESSAGE value="Added compatibility for custom Entity with pickware endpoints" />
     <MESSAGE value="Converted to Laravel Package" />
-    <option name="LAST_COMMIT_MESSAGE" value="Converted to Laravel Package" />
+    <MESSAGE value="Added Pickware API Endpoint" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Pickware API Endpoint" />
   </component>
 </project>
