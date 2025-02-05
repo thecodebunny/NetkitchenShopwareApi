@@ -48,8 +48,8 @@ class AdminAuthenticator
         $this->endpoint = $this->removeLastSlashes($endpoint);
     }
 
-    public function fetchAccessToken()
-    {
+    public function fetchAccessToken(): AccessToken|AuthorizationFailedException
+	{
         $formParams = $this->buildFormParams();
 
         try {

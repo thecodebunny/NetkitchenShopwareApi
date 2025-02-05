@@ -26,6 +26,8 @@ class MediaService extends ApiService
         ];
         $path = sprintf('/api/_action/media/%s/upload', $mediaId);
 
+		Log::debug('Media Url from Media Service - ' .  $this->buildQueryUrl($path, $params));
+
         try {
             $response = $this->httpClient->post($this->buildQueryUrl($path, $params), [
                 'headers' => $this->getBasicHeaders([
@@ -48,7 +50,7 @@ class MediaService extends ApiService
         $data = [
             'url' => $url,
         ];
-		Log::debug('Media Url from Media Service - ' .  $url);
+//		Log::debug('Media Url from Media Service - ' .  $url);
         return $this->uploadMediaById($mediaId, 'application/json', $data, $extension, $fileName);
     }
 

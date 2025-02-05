@@ -3,7 +3,7 @@
     "description": "A PHP SDK for Shopware 6 Platform",
     "type": "library",
     "license": "MIT",
-    "version": "2.7.0",
+    "version": "3.0.0",
     "authors": [
         {
             "name": "Netkitchen GmbH",

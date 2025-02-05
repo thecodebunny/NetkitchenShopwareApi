@@ -3,10 +3,25 @@
 namespace Thecodebunny\ShopwareApi\Repository;
 
 use GuzzleHttp\Exception\BadResponseException;
+use Illuminate\Support\Facades\Log;
 use Thecodebunny\ShopwareApi\Client\AdminAuthenticator;
 use Thecodebunny\ShopwareApi\Client\CreateClientTrait;
 use Thecodebunny\ShopwareApi\Client\GrantType\ClientCredentialsGrantType;
+
+use Thecodebunny\ShopwareApi\Data\BrilliantContext;
 use Thecodebunny\ShopwareApi\Data\Context;
+use Thecodebunny\ShopwareApi\Data\DewaltContext;
+use Thecodebunny\ShopwareApi\Data\HerthContext;
+use Thecodebunny\ShopwareApi\Data\KueblerContext;
+use Thecodebunny\ShopwareApi\Data\MediaImportContext;
+use Thecodebunny\ShopwareApi\Data\MediaUploadContext;
+use Thecodebunny\ShopwareApi\Data\ProductUploadContext;
+use Thecodebunny\ShopwareApi\Data\CustomerImportContext;
+use Thecodebunny\ShopwareApi\Data\MediaUploadFilesContext;
+use Thecodebunny\ShopwareApi\Data\MilwaukeeContext;
+use Thecodebunny\ShopwareApi\Data\PriceUpdateContext;
+use Thecodebunny\ShopwareApi\Data\StockUpdateContext;
+use Thecodebunny\ShopwareApi\Data\UvexContext;
 use Thecodebunny\ShopwareApi\Data\Criteria;
 use Thecodebunny\ShopwareApi\Data\Entity\Entity;
 use Thecodebunny\ShopwareApi\Data\Entity\EntityDefinition;
@@ -38,7 +53,9 @@ class EntityRepository implements RepositoryInterface
 
     private const BULK_API_ENDPOINT = '/_action/sync';
 
-	private const PICKWARE_API_ENDPOINT = '/api/_action/pickware-erp/stock/move';
+	private const PICKWARE_API_ENDPOINT = '/_action/pickware-erp/stock/move';
+
+	private const ORDER_DELIVERY_ENDPOINT = '/api/_action/order_delivery/state';
 
     private const SEARCH_IDS_API_ENDPOINT = '/api/search-ids';
 
@@ -65,14 +82,14 @@ class EntityRepository implements RepositoryInterface
         return $this->definition;
     }
 
-    public function get(string $id, Criteria $criteria, Context $context): ?Entity
+    public function get(string $id, Criteria $criteria, Context|MediaImportContext|MediaUploadContext|ProductUploadContext|MediaUploadFilesContext|CustomerImportContext|StockUpdateContext|PriceUpdateContext|KueblerContext|DewaltContext|BrilliantContext|HerthContext|MilwaukeeContext|UvexContext $context): ?Entity
     {
         $criteria->setIds([$id]);
 
         return $this->search($criteria, $context)->get($id);
     }
 
-    public function search(Criteria $criteria, Context $context): EntitySearchResult
+    public function search(Criteria $criteria, Context|MediaImportContext|MediaUploadContext|ProductUploadContext|MediaUploadFilesContext|CustomerImportContext|StockUpdateContext|PriceUpdateContext|KueblerContext|DewaltContext|BrilliantContext|HerthContext|MilwaukeeContext|UvexContext $context): EntitySearchResult
     {
             try {
                 $response = $this->httpClient->post($this->getSearchApiUrl($context->apiEndpoint), [
@@ -81,7 +98,6 @@ class EntityRepository implements RepositoryInterface
                 ])->getBody()->getContents();
             } catch (BadResponseException $exception) {
                 $message = $exception->getResponse()->getBody()->getContents();
-                dump($exception);
                 throw new ShopwareSearchResponseException($message, $exception->getResponse()->getStatusCode(), $criteria, $exception);
             }
 
@@ -96,7 +112,7 @@ class EntityRepository implements RepositoryInterface
         return new EntitySearchResult($this->entityName, $meta, $entities, $aggregations, $criteria, $context);
     }
 
-    public function searchPickware(Criteria $criteria, Context $context, string $pickwareEndpoint): EntitySearchResult
+    public function searchPickware(Criteria $criteria, Context|MediaImportContext|MediaUploadContext|ProductUploadContext|MediaUploadFilesContext|CustomerImportContext|StockUpdateContext|PriceUpdateContext|KueblerContext|DewaltContext|BrilliantContext|HerthContext|MilwaukeeContext|UvexContext $context, string $pickwareEndpoint): EntitySearchResult
     {
         try {
             $response = $this->httpClient->post($this->getSearchPickwareApiUrl($context->apiEndpoint, $pickwareEndpoint), [
@@ -105,7 +121,6 @@ class EntityRepository implements RepositoryInterface
             ])->getBody()->getContents();
         } catch (BadResponseException $exception) {
             $message = $exception->getResponse()->getBody()->getContents();
-            dump(json_decode($message));
             throw new ShopwareSearchResponseException($message, $exception->getResponse()->getStatusCode(), $criteria, $exception);
         }
 
@@ -120,7 +135,7 @@ class EntityRepository implements RepositoryInterface
         return new EntitySearchResult($this->entityName, $meta, $entities, $aggregations, $criteria, $context);
     }
 
-    public function searchIds(Criteria $criteria, Context $context): IdSearchResult
+    public function searchIds(Criteria $criteria, Context|MediaImportContext|MediaUploadContext|ProductUploadContext|MediaUploadFilesContext|CustomerImportContext|StockUpdateContext|PriceUpdateContext|KueblerContext|DewaltContext|BrilliantContext|HerthContext|MilwaukeeContext|UvexContext $context): IdSearchResult
     {
         try {
             $response = $this->httpClient->post($this->getSearchIdsApiUrl($context->apiEndpoint), [
@@ -141,7 +156,7 @@ class EntityRepository implements RepositoryInterface
     /**
      * Create an entity
      */
-    public function create(array $data, Context $context)
+    public function create(array $data, Context|MediaImportContext|MediaUploadContext|ProductUploadContext|MediaUploadFilesContext|CustomerImportContext|StockUpdateContext|PriceUpdateContext|KueblerContext|DewaltContext|BrilliantContext|HerthContext|MilwaukeeContext|UvexContext $context)
     {
         try {
             return json_decode(
@@ -151,14 +166,14 @@ class EntityRepository implements RepositoryInterface
 				])->getBody()->getContents()
 			);
         } catch (BadResponseException $exception) {
-            throw json_decode($exception->getResponse()->getBody()->getContents());
+            return ($exception->getResponse()->getBody()->getContents());
         }
     }
 
     /**
      * Update an entity
      */
-    public function update(array $data, Context $context)
+    public function update(array $data, Context|MediaImportContext|MediaUploadContext|ProductUploadContext|MediaUploadFilesContext|CustomerImportContext|StockUpdateContext|PriceUpdateContext|KueblerContext|DewaltContext|BrilliantContext|HerthContext|MilwaukeeContext|UvexContext $context)
     {
         //dump($data);
         if (empty($data['id'])) {
@@ -177,7 +192,45 @@ class EntityRepository implements RepositoryInterface
         }
     }
 
-    public function updateBulk(array $data, Context $context)
+	public function updateOrderState(array $data, $transition, Context|MediaImportContext|MediaUploadContext|ProductUploadContext|MediaUploadFilesContext|CustomerImportContext|StockUpdateContext|PriceUpdateContext|KueblerContext|DewaltContext|BrilliantContext|HerthContext|MilwaukeeContext|UvexContext $context)
+	{
+		if (empty($data['id'])) {
+			return new \InvalidArgumentException('Id is not provided for update payload');
+		}
+
+		$id = $data['id'];
+		try {
+			return $this->httpClient->post($this->getEntityOrderStateEndpoint($context->apiEndpoint, $id,
+				$transition), [
+				'headers' => $this->buildHeaders($context),
+				'body' => json_encode($data)
+			])->getBody()->getContents();
+		} catch (BadResponseException $exception) {
+			return $exception->getResponse()->getBody()->getContents();
+		}
+	}
+
+	public function updateOrderDeliveryState(array $data, $transition, Context|MediaImportContext|MediaUploadContext|ProductUploadContext|MediaUploadFilesContext|CustomerImportContext|StockUpdateContext|PriceUpdateContext|KueblerContext|DewaltContext|BrilliantContext|HerthContext|MilwaukeeContext|UvexContext $context)
+	{
+		if (empty($data['id'])) {
+			return new \InvalidArgumentException('Id is not provided for update payload');
+		}
+
+		$id = $data['id'];
+		echo '/n ' . $context->apiEndpoint;
+		try {
+			$response =  $this->httpClient->post($this->getEntityOrderDeliveryStateEndpoint($context->apiEndpoint, $id,
+				$transition), [
+				'headers' => $this->buildHeaders($context),
+				'body' => json_encode($data)
+			])->getBody()->getContents();
+			return $response;
+		} catch (BadResponseException $exception) {
+			return $exception->getResponse()->getBody()->getContents();
+		}
+	}
+
+    public function updateBulk(array $data, Context|MediaImportContext|MediaUploadContext|ProductUploadContext|MediaUploadFilesContext|CustomerImportContext|StockUpdateContext|PriceUpdateContext|KueblerContext|DewaltContext|BrilliantContext|HerthContext|MilwaukeeContext|UvexContext $context)
     {
         try {
             return $this->httpClient->post($this->getBulkApiEndpoint($context->apiEndpoint), [
@@ -189,19 +242,23 @@ class EntityRepository implements RepositoryInterface
         }
     }
 
-	public function movePickwareStock(array $data, Context $context)
+	public function movePickwareStock(array $data, Context|MediaImportContext|MediaUploadContext|ProductUploadContext|MediaUploadFilesContext|CustomerImportContext|StockUpdateContext|PriceUpdateContext|KueblerContext|DewaltContext|BrilliantContext|HerthContext|MilwaukeeContext|UvexContext $context)
 	{
+		Log::channel('stock')->info('CONTEXT API ENDPOINT - ' . $context->apiEndpoint);
 		try {
-			return $this->httpClient->post($this->getBulkApiEndpoint($context->apiEndpoint), [
+			$response =  $this->httpClient->post($this->getPickwareApiEndpoint($context->apiEndpoint), [
 				'headers' => $this->buildHeaders($context),
 				'body' => json_encode($data)
-			])->getBody();
+			]);
+//			Log::channel('stock')->info('$response - ' . print_r($response, true));
+			return $response;
 		} catch (BadResponseException $exception) {
+//			Log::channel('$exception')->info('$response - ' . print_r($exception, true));
 			return $exception->getResponse()->getBody()->getContents();
 		}
 	}
 
-    public function delete(string $id, Context $context)
+    public function delete(string $id, Context|MediaImportContext|MediaUploadContext|ProductUploadContext|MediaUploadFilesContext|CustomerImportContext|StockUpdateContext|PriceUpdateContext|KueblerContext|DewaltContext|BrilliantContext|HerthContext|MilwaukeeContext|UvexContext $context)
     {
         try {
             $this->httpClient->delete($this->getEntityEndpoint($context->apiEndpoint, $id), [
@@ -212,7 +269,7 @@ class EntityRepository implements RepositoryInterface
         }
     }
 
-    public function syncDeleted(array $ids, Context $context): ApiResponse
+    public function syncDeleted(array $ids, Context|MediaImportContext|MediaUploadContext|ProductUploadContext|MediaUploadFilesContext|CustomerImportContext|StockUpdateContext|PriceUpdateContext|KueblerContext|DewaltContext|BrilliantContext|HerthContext|MilwaukeeContext|UvexContext $context): ApiResponse
     {
         $syncService = new SyncService($context);
 
@@ -235,7 +292,7 @@ class EntityRepository implements RepositoryInterface
         return $syncService->sync($payload, [], $headers);
     }
 
-    public function createVersion(string $id, Context $context, ?string $versionId = null, ?string $versionName = null): VersionResponse
+    public function createVersion(string $id, Context|MediaImportContext|MediaUploadContext|ProductUploadContext|MediaUploadFilesContext|CustomerImportContext|StockUpdateContext|PriceUpdateContext|KueblerContext|DewaltContext|BrilliantContext|HerthContext|MilwaukeeContext|UvexContext $context, ?string $versionId = null, ?string $versionName = null): VersionResponse
     {
         $data = [];
 
@@ -262,7 +319,7 @@ class EntityRepository implements RepositoryInterface
         }
     }
 
-    public function mergeVersion(string $versionId, Context $context): void
+    public function mergeVersion(string $versionId, Context|MediaImportContext|MediaUploadContext|ProductUploadContext|MediaUploadFilesContext|CustomerImportContext|StockUpdateContext|PriceUpdateContext|KueblerContext|DewaltContext|BrilliantContext|HerthContext|MilwaukeeContext|UvexContext $context): void
     {
         try {
             $this->httpClient->post($this->getMergeVersionEndpoint($context->apiEndpoint, $versionId), [
@@ -276,7 +333,7 @@ class EntityRepository implements RepositoryInterface
         }
     }
 
-    public function deleteVersion(string $id, string $versionId, Context $context): void
+    public function deleteVersion(string $id, string $versionId, Context|MediaImportContext|MediaUploadContext|ProductUploadContext|MediaUploadFilesContext|CustomerImportContext|StockUpdateContext|PriceUpdateContext|KueblerContext|DewaltContext|BrilliantContext|HerthContext|MilwaukeeContext|UvexContext $context): void
     {
         try {
             $this->httpClient->post($this->getDeleteVersionEndpoint($context->apiEndpoint, $id, $versionId), [
@@ -288,7 +345,7 @@ class EntityRepository implements RepositoryInterface
         }
     }
 
-    public function clone(string $id, Context $context, ?CloneBehaviour $cloneBehaviour = null): string
+    public function clone(string $id, Context|MediaImportContext|MediaUploadContext|ProductUploadContext|MediaUploadFilesContext|CustomerImportContext|StockUpdateContext|PriceUpdateContext|KueblerContext|DewaltContext|BrilliantContext|HerthContext|MilwaukeeContext|UvexContext $context, ?CloneBehaviour $cloneBehaviour = null): string
     {
         $data = [];
 
@@ -330,6 +387,22 @@ class EntityRepository implements RepositoryInterface
     {
         return sprintf('%s/api%s/%s?_response=detail', $endpoint, $this->route, $entityId ?? '');
     }
+
+
+	protected function getEntityOrderStateEndpoint(string $endpoint, ?string $entityId = null, ?string $transition =
+	null):
+	string
+	{
+		return sprintf('%s/api/_action%s/%s/state/%s?_response=detail', $endpoint, $this->route, $entityId ?? '', $transition ?? '');
+	}
+
+	protected function getEntityOrderDeliveryStateEndpoint(string $endpoint, ?string $entityId = null, ?string
+	$transition = null):
+	string
+	{
+		return sprintf('%s/api/_action%s/%s/state/%s?_response=detail', $endpoint, '/order_delivery', $entityId ?? '',
+			$transition ?? '');
+	}
 
     protected function getBulkApiEndpoint(string $endpoint, ?string $path = null):
     string
@@ -378,7 +451,7 @@ class EntityRepository implements RepositoryInterface
         return sprintf('%s%s%s%s', $endpoint, self::SEARCH_IDS_API_ENDPOINT, $this->route, $path ?? '');
     }
 
-    protected function buildHeaders(Context $context, array $additionalHeaders = []): array
+    protected function buildHeaders(Context|MediaImportContext|MediaUploadContext|ProductUploadContext|MediaUploadFilesContext|CustomerImportContext|StockUpdateContext|PriceUpdateContext|KueblerContext|DewaltContext|BrilliantContext|HerthContext|MilwaukeeContext|UvexContext $context, array $additionalHeaders = []): array
     {
         $accessToken = $context->accessToken;
 

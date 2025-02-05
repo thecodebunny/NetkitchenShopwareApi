@@ -5,10 +5,11 @@ namespace Thecodebunny\ShopwareApi\Data;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\Log;
 use Thecodebunny\ShopwareApi\Client\AdminAuthenticator;
 use Thecodebunny\ShopwareApi\Client\GrantType\ClientCredentialsGrantType;
 
-class Context
+class MilwaukeeContext
 {
     use EndPointTrait;
 
@@ -28,8 +29,6 @@ class Context
 
     public array $additionalHeaders;
 
-	public int $time;
-
     public function __construct(
         string $accessToken = '',
         string $languageId = Defaults::LANGUAGE_SYSTEM,
@@ -37,7 +36,6 @@ class Context
         string $versionId = Defaults::LIVE_VERSION,
         bool $compatibility = true,
         bool $inheritance = true,
-		int $time = 0,
         array $additionalHeaders = []
     ) {
         $this->languageId = $languageId;
@@ -45,7 +43,6 @@ class Context
         $this->versionId = $versionId;
         $this->compatibility = $compatibility;
         $this->inheritance = $inheritance;
-		$this->time = (int) config('shopware-api.access_token_expires_at.default');
         $this->accessToken = $this->accessTokens();
         $this->apiEndpoint = $this->removeLastSlashes(config('shopware-api.shop_url'));
         $this->additionalHeaders = $additionalHeaders;
@@ -53,23 +50,26 @@ class Context
 
     public function accessTokens(): string
     {
-		if (time() - (int)(config('shopware-api.access_token_expires_at.default')) > (8 * 60)) {
+		Log::channel('stock')->notice('milwaukee Token valid? = ' . (time() - (int)(config('shopware-api.access_token_expires_at.milwaukee'))));
+
+		if (time() - (int)(config('shopware-api.access_token_expires_at.milwaukee')) > (8 * 60)) {
+			Log::channel('stock')->notice('Getting new token.');
 			Artisan::call('config:clear');
-			$grantType = new ClientCredentialsGrantType(config('shopware-api.access_key.default'),config('shopware-api.secret_access_key.default'));
+			$grantType = new ClientCredentialsGrantType(config('shopware-api.access_key.milwaukee'),config('shopware-api.secret_access_key.milwaukee'));
 			$adminClient = new AdminAuthenticator($grantType, config('shopware-api.shop_url'));
 			$accessToken = $adminClient->fetchAccessToken()->accessToken;
 			config([
-				'shopware-api.access_token.default' => $accessToken,
-				'shopware-api.access_token_expires_at.default' => strtotime('now'),
+				'shopware-api.access_token.milwaukee' => $accessToken,
+				'shopware-api.access_token_expires_at.milwaukee' => strtotime('now'),
 			]);
 			$fopen = fopen(base_path() . '/config/shopware-api.php', 'w');
 			fwrite($fopen, '<?php return ' . var_export(config('shopware-api'), true) . ';');
 			fclose($fopen);
 			Artisan::call('config:clear');
+			Artisan::call('config:cache');
 		} else {
-			$accessToken = config('shopware-api.access_token.default');
+			$accessToken = config('shopware-api.access_token.milwaukee');
 		}
-
 		return $accessToken;
     }
 }

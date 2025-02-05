@@ -15,9 +15,6 @@ use Thecodebunny\ShopwareApi\Data\Schema\Schema;
  */
 class CustomDefinition implements EntityDefinition
 {
-
-	public const ENTITY_NAME = 'pickware-erp';
-
     private string $customEntity;
 
     public function __construct(string $customEntity)

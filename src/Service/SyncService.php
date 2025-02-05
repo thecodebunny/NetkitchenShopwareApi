@@ -11,7 +11,10 @@ class SyncService extends ApiService
 {
     private const SYNC_ENDPOINT = '/api/_action/sync';
 
-    public function sync(SyncPayload $payload, array $additionalParams = [], array $additionalHeaders = ['fail-on-error' => false])
+	/**
+	 * @throws ShopwareResponseException
+	 */
+	public function sync(SyncPayload $payload, array $additionalParams = [], array $additionalHeaders = [])
     {
         try {
             $response = $this->httpClient->post($this->getFullUrl(self::SYNC_ENDPOINT), [
@@ -19,11 +22,11 @@ class SyncService extends ApiService
                 'body' => json_encode(array_merge($payload->parse(), $additionalParams))
             ]);
             $contents = self::handleResponse($response->getBody()->getContents(), $response->getHeaders());
-
             return new ApiResponse($contents, $response->getHeaders(), $response->getStatusCode());
         } catch (BadResponseException $exception) {
             $message = $exception->getResponse()->getBody()->getContents();
-			Log::debug('Exception Message - ' . mb_convert_encoding($exception->getMessage(), 'UTF-8', 'UTF-8'));
+			Log::debug('$payload NEW - ' . print_r($payload, true));
+			Log::debug('Exception NEW - ' . print_r($exception, true));
             throw new ShopwareResponseException($message, $exception->getResponse()
 				->getStatusCode(),$exception) ;
         }

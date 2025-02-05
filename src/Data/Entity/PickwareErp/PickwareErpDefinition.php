@@ -1,5 +1,5 @@
 <?php declare(strict_types=1);
-namespace Thecodebunny\ShopwareApi\Data\Entity\Custom;
+namespace Thecodebunny\ShopwareApi\Data\Entity\PickwareErp;
 
 use Thecodebunny\ShopwareApi\Data\Entity\EntityDefinition;
 use Thecodebunny\ShopwareApi\Data\Schema\Flag;
@@ -13,31 +13,28 @@ use Thecodebunny\ShopwareApi\Data\Schema\Schema;
  *
  * This class is generated dynamically following SW entities schema
  */
-class CustomDefinition implements EntityDefinition
+class PickwareErpDefinition implements EntityDefinition
 {
+    private string $pickwareErpEntity;
 
-	public const ENTITY_NAME = 'pickware-erp';
-
-    private string $customEntity;
-
-    public function __construct(string $customEntity)
+    public function __construct(string $pickwareErpEntity)
     {
-        $this->customEntity = $customEntity;
+        $this->pickwareErpEntity = $pickwareErpEntity;
     }
 
     public function getEntityName() : string
     {
-        return $this->customEntity;
+        return $this->pickwareErpEntity;
     }
 
     public function getEntityClass() : string
     {
-        return CustomEntity::class;
+        return PickwareErpEntity::class;
     }
 
     public function getEntityCollection() : string
     {
-        return CustomCollection::class;
+        return PickwareErpCollection::class;
     }
 
     public function getSchema(): Schema

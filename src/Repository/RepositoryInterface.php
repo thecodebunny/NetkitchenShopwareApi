@@ -26,6 +26,8 @@ interface RepositoryInterface
 
     public function update(array $data, Context $context);
 
+	public function updateOrderState(array $data, $transition, Context $context);
+
     public function create(array $data, Context $context);
 
     public function clone(string $id, Context $context, ?CloneBehaviour $cloneBehaviour = null): string;
