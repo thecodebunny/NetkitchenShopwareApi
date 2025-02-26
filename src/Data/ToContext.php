@@ -57,7 +57,7 @@ class ToContext extends Context
 
 			Config::write('shopware-api.to-shopware-access_token', $accessToken);
 			Config::write('shopware-api.to-shopware-access_token_expires_at', strtotime('now'));
-			Artisan::call('config:clear');
+			//Artisan::call('config:clear');
         } else {
             $accessToken = config('shopware-api.to-shopware-access_token');
         }

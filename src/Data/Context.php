@@ -54,7 +54,7 @@ class Context
     public function accessTokens(): string
     {
 		if (time() - (int)(config('shopware-api.access_token_expires_at.default')) > (8 * 60)) {
-			Artisan::call('config:clear');
+			//Artisan::call('config:clear');
 			$grantType = new ClientCredentialsGrantType(config('shopware-api.access_key.default'),config('shopware-api.secret_access_key.default'));
 			$adminClient = new AdminAuthenticator($grantType, config('shopware-api.shop_url'));
 			$accessToken = $adminClient->fetchAccessToken()->accessToken;
@@ -65,7 +65,7 @@ class Context
 			$fopen = fopen(base_path() . '/config/shopware-api.php', 'w');
 			fwrite($fopen, '<?php return ' . var_export(config('shopware-api'), true) . ';');
 			fclose($fopen);
-			Artisan::call('config:clear');
+			//Artisan::call('config:clear');
 		} else {
 			$accessToken = config('shopware-api.access_token.default');
 		}

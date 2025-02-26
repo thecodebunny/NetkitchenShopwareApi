@@ -50,13 +50,13 @@ class FromContext extends Context
     public function accessTokens(): string
     {
         if (time() - (int)(config('shopware-api.from-shopware-access_token_expires_at')) > 6 * 60) {
-			Artisan::call('config:clear');
+			//Artisan::call('config:clear');
             $grantType = new ClientCredentialsGrantType(config('shopware-api.from-shopware-access_key'),config('shopware-api.from-shopware-secret_access_key'));
             $adminClient = new AdminAuthenticator($grantType, config('shopware-api.from-shopware-shop_url'));
             $accessToken = $adminClient->fetchAccessToken()->accessToken;
 			Config::write('shopware-api.from-shopware-access_token', $accessToken);
 			Config::write('shopware-api.from-shopware-access_token_expires_at', strtotime('now'));
-			Artisan::call('config:clear');
+			//Artisan::call('config:clear');
         } else {
             $accessToken = config('shopware-api.from-shopware-access_token');
         }

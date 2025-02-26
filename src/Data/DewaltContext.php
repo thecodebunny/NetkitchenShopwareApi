@@ -54,7 +54,7 @@ class DewaltContext
 
 		if (time() - (int)(config('shopware-api.access_token_expires_at.dewalt')) > (8 * 60)) {
 			Log::channel('stock')->notice('Getting new token.');
-			Artisan::call('config:clear');
+			//Artisan::call('config:clear');
 			$grantType = new ClientCredentialsGrantType(config('shopware-api.access_key.dewalt'),config('shopware-api.secret_access_key.dewalt'));
 			$adminClient = new AdminAuthenticator($grantType, config('shopware-api.shop_url'));
 			$accessToken = $adminClient->fetchAccessToken()->accessToken;
@@ -65,8 +65,8 @@ class DewaltContext
 			$fopen = fopen(base_path() . '/config/shopware-api.php', 'w');
 			fwrite($fopen, '<?php return ' . var_export(config('shopware-api'), true) . ';');
 			fclose($fopen);
-			Artisan::call('config:clear');
-			Artisan::call('config:cache');
+			//Artisan::call('config:clear');
+			//Artisan::call('config:cache');
 		} else {
 			$accessToken = config('shopware-api.access_token.dewalt');
 		}

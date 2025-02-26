@@ -4,25 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="109b5a88-bd77-43d0-bcc7-768fffbefa84" name="Changes" comment="Added PickwareErp Stock &amp; Stock Movement Entities">
-      <change afterPath="$PROJECT_DIR$/src/Data/BrilliantContext.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Data/CustomerImportContext.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Data/DewaltContext.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/NetkitchenShopwareApi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NetkitchenShopwareApi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+    <list default="true" id="109b5a88-bd77-43d0-bcc7-768fffbefa84" name="Changes" comment="Added Separate Contexts for API Calls depending on use case.">
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/shopwaresix.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/shopwaresix.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/AdminAuthenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/AdminAuthenticator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/BrilliantContext.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/BrilliantContext.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Data/Context.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Context.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/Entity/Custom/CustomDefinition.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Entity/Custom/CustomDefinition.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/Entity/PickwareErpStockMovement/PickwareErpStockMovementDefinition.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Entity/PickwareErpStockMovement/PickwareErpStockMovementDefinition.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/EntityRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/EntityRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/RepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/RepositoryInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Resources/schema.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resources/schema.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service/ApiService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/ApiService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service/MediaService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/MediaService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/CustomerImportContext.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/CustomerImportContext.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/DewaltContext.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/DewaltContext.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/Entity/ImportExportFile/ImportExportFileDefinition.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Entity/ImportExportFile/ImportExportFileDefinition.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/FromContext.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/FromContext.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/HerthContext.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/HerthContext.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/KueblerContext.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/KueblerContext.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/MediaImportContext.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/MediaImportContext.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/MediaUploadContext.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/MediaUploadContext.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/MediaUploadFilesContext.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/MediaUploadFilesContext.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/MilwaukeeContext.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/MilwaukeeContext.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/OrderContext.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/OrderContext.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/PriceUpdateContext.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/PriceUpdateContext.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/ProductUploadContext.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/ProductUploadContext.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/StockUpdateContext.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/StockUpdateContext.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/ToContext.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/ToContext.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/UvexContext.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/UvexContext.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Service/SyncService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/SyncService.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +78,7 @@
     "WebServerToolWindowPanel.toolwindow.show.date": "false",
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
-    "com.google.cloudcode.ide_session_index": "20250205_0001",
+    "com.google.cloudcode.ide_session_index": "20250225_0000",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "/Users/admin/WORK/TCB Repositories/NetkitchenShopwareApi",
     "node.js.detected.package.eslint": "true",
@@ -117,7 +119,8 @@
       <workItem from="1718960560165" duration="1961000" />
       <workItem from="1722406157217" duration="4095000" />
       <workItem from="1722492648046" duration="1792000" />
-      <workItem from="1738739910545" duration="930000" />
+      <workItem from="1738739910545" duration="1579000" />
+      <workItem from="1740493522012" duration="738000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Release">
       <option name="closed" value="true" />
@@ -215,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722414849574</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added Separate Contexts for API Calls depending on use case.">
+      <option name="closed" value="true" />
+      <created>1738741205739</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1738741205739</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +251,7 @@
     <MESSAGE value="Converted to Laravel Package" />
     <MESSAGE value="Added Pickware API Endpoint" />
     <MESSAGE value="Added PickwareErp Stock &amp; Stock Movement Entities" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added PickwareErp Stock &amp; Stock Movement Entities" />
+    <MESSAGE value="Added Separate Contexts for API Calls depending on use case." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Separate Contexts for API Calls depending on use case." />
   </component>
 </project>
