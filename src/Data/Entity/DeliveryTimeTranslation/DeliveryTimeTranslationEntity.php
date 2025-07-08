@@ -1,0 +1,24 @@
+<?php declare(strict_types=1);
+namespace Thecodebunny\ShopwareApi\Data\Entity\DeliveryTimeTranslation;
+
+use Thecodebunny\ShopwareApi\Data\Entity\DeliveryTime\DeliveryTimeEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\Language\LanguageEntity;
+use Thecodebunny\ShopwareApi\Data\Entity\Entity;
+
+/**
+ * Shopware Entity Mapping Class
+ *
+ * This class is generated dynamically following SW entities schema
+ */
+class DeliveryTimeTranslationEntity extends Entity
+{
+    public ?string $name = null;
+
+    public ?string $deliveryTimeId = null;
+
+    public ?string $languageId = null;
+
+    public ?DeliveryTimeEntity $deliveryTime = null;
+
+    public ?LanguageEntity $language = null;
+}

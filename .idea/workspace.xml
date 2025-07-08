@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="109b5a88-bd77-43d0-bcc7-768fffbefa84" name="Changes" comment="Added compatibility for custom Entity with pickware endpoints as well as separate contexts for each use case scenarios." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerConfigs">
+    <option name="configs">
+      <option value="$PROJECT_DIR$/script/composer.json" />
+    </option>
+  </component>
+  <component name="ComposerSettings" notifyAboutMissingVendor="false" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;thecodebunny&quot;
+  }
+}</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="ec6b128b-aa44-489c-a278-83a2c5863523" />
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/thecodebunny/NetkitchenShopwareApi.git&quot;,
+    &quot;accountId&quot;: &quot;ec6b128b-aa44-489c-a278-83a2c5863523&quot;
+  }
+}</component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.3.4/bin/php" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2h6A6chHSvYSazKWzfmqUmQ5Ngo" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "com.google.cloudcode.ide_session_index": "20250708_0006",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/admin/WORK/TCB Repositories/lara-tumi-live/vendor/thecodebunny/shopware-api",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-php-predefined-a98d8de5180a-c5828cf854d9-com.jetbrains.php.sharedIndexes-PS-251.26094.133" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="109b5a88-bd77-43d0-bcc7-768fffbefa84" name="Changes" comment="" />
+      <created>1716903978850</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716903978850</updated>
+      <workItem from="1716903980048" duration="1842000" />
+      <workItem from="1716993137191" duration="16062000" />
+      <workItem from="1718029625528" duration="1799000" />
+      <workItem from="1718351199832" duration="590000" />
+      <workItem from="1718352428345" duration="591000" />
+      <workItem from="1718356493021" duration="592000" />
+      <workItem from="1718960560165" duration="136000" />
+      <workItem from="1738736725789" duration="1041000" />
+      <workItem from="1738737775556" duration="1565000" />
+      <workItem from="1738739784064" duration="128000" />
+      <workItem from="1738739927369" duration="214000" />
+      <workItem from="1751976820020" duration="508000" />
+      <workItem from="1751977345294" duration="269000" />
+      <workItem from="1751977632535" duration="1200000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial Release">
+      <option name="closed" value="true" />
+      <created>1716904474181</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716904474181</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Package Name Change">
+      <option name="closed" value="true" />
+      <created>1716993407861</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716993407861</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Package Name Change">
+      <option name="closed" value="true" />
+      <created>1716993516220</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716993516220</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Package Name Change">
+      <option name="closed" value="true" />
+      <created>1716993717449</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716993717449</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Package Name Change">
+      <option name="closed" value="true" />
+      <created>1716993862268</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716993862268</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Package Name Change">
+      <option name="closed" value="true" />
+      <created>1716993869236</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716993869236</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Package Name Change">
+      <option name="closed" value="true" />
+      <created>1716994208242</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716994208242</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added compatibility for custom Entity with pickware endpoints">
+      <option name="closed" value="true" />
+      <created>1717769604258</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717769604258</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added compatibility for custom Entity with pickware endpoints as well as separate contexts for each use case scenarios.">
+      <option name="closed" value="true" />
+      <created>1738739112931</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1738739112931</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added compatibility for custom Entity with pickware endpoints as well as separate contexts for each use case scenarios.">
+      <option name="closed" value="true" />
+      <created>1751977111455</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1751977111455</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master/orgin/master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial Release" />
+    <MESSAGE value="Package Name Change" />
+    <MESSAGE value="Added compatibility for custom Entity with pickware endpoints" />
+    <MESSAGE value="Added compatibility for custom Entity with pickware endpoints as well as separate contexts for each use case scenarios." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added compatibility for custom Entity with pickware endpoints as well as separate contexts for each use case scenarios." />
+  </component>
+</project>
