@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="109b5a88-bd77-43d0-bcc7-768fffbefa84" name="Changes" comment="Added compatibility for custom Entity with pickware endpoints as well as separate contexts for each use case scenarios." />
+    <list default="true" id="109b5a88-bd77-43d0-bcc7-768fffbefa84" name="Changes" comment="Added compatibility for custom Entity with pickware endpoints as well as separate contexts for each use case scenarios.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/Entity/SalesChannel/SalesChannelDefinition.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/Entity/SalesChannel/SalesChannelDefinition.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,13 +58,14 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
     "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
     "WebServerToolWindowPanel.toolwindow.show.date": "false",
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
-    "com.google.cloudcode.ide_session_index": "20250708_0006",
-    "git-widget-placeholder": "master",
+    "com.google.cloudcode.ide_session_index": "20250708_0008",
+    "git-widget-placeholder": "orgin/master",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "/Users/admin/WORK/TCB Repositories/lara-tumi-live/vendor/thecodebunny/shopware-api",
     "node.js.detected.package.eslint": "true",
@@ -102,6 +106,7 @@
       <workItem from="1751976820020" duration="508000" />
       <workItem from="1751977345294" duration="269000" />
       <workItem from="1751977632535" duration="1200000" />
+      <workItem from="1751979112995" duration="1386000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Release">
       <option name="closed" value="true" />
@@ -183,7 +188,23 @@
       <option name="project" value="LOCAL" />
       <updated>1751977111455</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added compatibility for custom Entity with pickware endpoints as well as separate contexts for each use case scenarios.">
+      <option name="closed" value="true" />
+      <created>1751979616802</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1751979616802</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added compatibility for custom Entity with pickware endpoints as well as separate contexts for each use case scenarios.">
+      <option name="closed" value="true" />
+      <created>1751979626429</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1751979626429</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
